@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fermi App</string>
+    <string name="creator_name">BY: DAD TEAM</string>
+    <string name="btnLogin">ВХОД</string>
+    <string name="btnRegister">РЕГИСТРАЦИЯ</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="emailfield">Email</string>
+    <string name="repassword">Подтвердите пароль</string>
+    <string name="btnAboutUS">О НАС</string>
+    <string name="btnStart">НАЧАТЬ</string>
+    <string name="btnSettings">НАСТРОЙКИ</string>
+
+</resources>

@@ -10,5 +10,14 @@
     <string name="btnAboutUS">О НАС</string>
     <string name="btnStart">НАЧАТЬ</string>
     <string name="btnSettings">НАСТРОЙКИ</string>
-
+    <string name="logout">Выйти</string>
+    <string name="profilesettings">Настройки профиля</string>
+    <string name="changepassword">Изменить пароль</string>
+    <string name="editprofile">Редактировать</string>
+    <string name="menuofhome">Меню</string>
+    <string name="aboutus">Информация</string>
+    <string name="physics">Физика</string>
+    <string name="topics">РАЗДЕЛЫ</string>
+    <string name="practice">ПРАКТИКА</string>
+    <string name="tables">ТАБЛИЦА</string>
 </resources>

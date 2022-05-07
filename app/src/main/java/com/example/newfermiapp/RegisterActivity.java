@@ -1,9 +1,5 @@
 package com.example.newfermiapp;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,11 +7,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.newfermiapp.DBHelper;
-import com.example.newfermiapp.HomeActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class RegisterActivity extends AppCompatActivity implements View.OnClickListener {
+
     EditText username, emailfield, password, repassword;
     Button btnRegister, btnLogin;
     DBHelper DB;

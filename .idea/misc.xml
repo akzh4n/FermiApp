@@ -3,11 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_home.xml" value="0.152" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/bg_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_icons8_person_24.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_lock.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_logperson.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_mail.xml" value="0.206" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_regperson.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_secondwave.xml" value="0.2595" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_wave.xml" value="0.1" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_wave2.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_bg.xml" value="0.2" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_border.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_profile.xml" value="0.206" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/wave.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_aboutus.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_practice.xml" value="0.2" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_start.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_tables.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_topics.xml" value="0.2" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_userprofile.xml" value="0.152" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/register_window.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/toolbar.xml" value="0.1" />
       </map>
     </option>
   </component>

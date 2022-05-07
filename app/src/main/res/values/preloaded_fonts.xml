@@ -2,8 +2,13 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/</item>
+        <item>@font/antic</item>
+        <item>@font/archivo_black</item>
+        <item>@font/athiti</item>
+        <item>@font/athiti_bold</item>
         <item>@font/athiti_extralight</item>
         <item>@font/montserrat_alternates_bold</item>
+        <item>@font/montserrat_alternates_light</item>
         <item>@font/montserrat_alternates_thin</item>
     </array>
 </resources>

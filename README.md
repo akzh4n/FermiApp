@@ -5,6 +5,7 @@
 
 
 # We have started working by our project, and you see files of app.
-# Firstly you can only see the "Register/Login" form, by adding it we still working on design.
+# TRELLO: https://trello.com/b/7vCpJnhL/cl
+# JIRA: https://dadteam.atlassian.net/jira/software/projects/FER/boards/1/backlog
 
 

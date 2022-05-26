@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "198692314616",
-    "project_id": "fermi-project",
-    "storage_bucket": "fermi-project.appspot.com"
+    "project_number": "123772728975",
+    "project_id": "newfermiappbase-64456",
+    "storage_bucket": "newfermiappbase-64456.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:198692314616:android:7a42ec3a4af47b96674a0d",
+        "mobilesdk_app_id": "1:123772728975:android:15f70eee6e8d55f077a2fa",
         "android_client_info": {
           "package_name": "com.example.newfermiapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "198692314616-kpkgf48eivhu7nrpr9402l5coepk0q3e.apps.googleusercontent.com",
+          "client_id": "123772728975-e9vongqk8lqbfpo3vfi17ldh62atllnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newfermiapp",
+            "certificate_hash": "0ae366ee8848b1fc86b7adfafc735e1fad8668c4"
+          }
+        },
+        {
+          "client_id": "123772728975-hbcu50nnohdo7rmfbd2oocth3gve8sep.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDEQJGm-ZCbSob95FYYrk5eDMeonVrXJBM"
+          "current_key": "AIzaSyBl3kzMO1xepNzTj7qABfNO4FJNNfHTnug"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "198692314616-kpkgf48eivhu7nrpr9402l5coepk0q3e.apps.googleusercontent.com",
+              "client_id": "123772728975-hbcu50nnohdo7rmfbd2oocth3gve8sep.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -8,3 +8,9 @@
 # Firstly you can only see the "Register/Login" form, by adding it we still working on design.
 
 
+# Next step, we added main menu with user profile.
+# By this way, we have created a lot of things like "Topics, Practice, Tables" of course.
+# But there are were problems with old design, we had to change and add new things.
+# We completely did that, but as you can see there are lack of such problems, but we are going to fix it.
+
+

@@ -1,5 +1,6 @@
 package com.example.newfermiapp;
 
+import android.app.AppComponentFactory;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -7,9 +8,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnSettings, btnAboutUs, btnStart;
+    FirebaseAuth mAuth;
 
 
     @Override
@@ -24,6 +28,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         btnSettings.setOnClickListener(this);
         btnAboutUs.setOnClickListener(this);
         btnStart.setOnClickListener(this);
+
+
+        mAuth = FirebaseAuth.getInstance();
+
+
 
     }
 

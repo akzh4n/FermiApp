@@ -43,12 +43,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         switch(v.getId()) {
             case R.id.btnLogin:
-                Intent intent = new Intent(this, LoginActivity.class);
+                Intent intent = new Intent(this,LoginActivity.class);
                 startActivity(intent);
                 break;
             default:
                 break;
         }
+
     }
+
 
 }

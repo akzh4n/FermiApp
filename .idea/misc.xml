@@ -8,27 +8,33 @@
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_lock.xml" value="0.2035" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_logperson.xml" value="0.2035" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_mail.xml" value="0.206" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_pencil_icon.xml" value="0.141" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_regperson.xml" value="0.2035" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_secondwave.xml" value="0.2595" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_wave.xml" value="0.1" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/ic_wave2.xml" value="0.2035" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_bg.xml" value="0.2" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_border.xml" value="0.2035" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_edit.xml" value="0.145" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/round_profile.xml" value="0.206" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/drawable/wave.xml" value="0.2035" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_aboutus.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_aboutus.xml" value="0.152" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_editprofile.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_edituserprofile.xml" value="0.2" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_home.xml" value="0.176" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_login.xml" value="0.152" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_mechanics.xml" value="0.21516754850088182" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_practice.xml" value="0.2" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_start.xml" value="0.176" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_tables.xml" value="0.176" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_topics.xml" value="0.2" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_topics.xml" value="0.176" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_user.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_userprofile.xml" value="0.152" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/activity_userprofile.xml" value="0.2" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/register_window.xml" value="0.176" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/layout/viewcontents_layout.xml" value="0.176" />
       </map>
     </option>
   </component>

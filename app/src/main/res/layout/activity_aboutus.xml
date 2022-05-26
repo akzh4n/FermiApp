@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
+    android:padding="-10dp"
     android:scrollbars="none">
 
     <RelativeLayout
@@ -15,54 +14,37 @@
         tools:context=".AboutUsActivity">
 
 
-        <LinearLayout
-            android:id="@+id/linear_ll"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="5dp">
-
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_weight="1"
-                android:fontFamily="@font/antic"
-                android:gravity="center"
-                android:text="@string/aboutus"
-                android:textColor="@android:color/black"
-                android:textSize="25dp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/logout"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:fontFamily="@font/antic"
-                android:text="@string/logout"
-                android:textColor="@color/purple_500"
-                android:textSize="20dp"
-                android:textStyle="normal" />
-
-        </LinearLayout>
-
-
+        <View
+            android:id="@+id/topviewabus"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@color/PurpleNeed" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_below="@+id/linear_ll"
-            android:background="@color/purple_700"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp" />
+            android:id="@+id/undertopviewabus"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_below="@id/topviewabus"
+            android:background="@drawable/ic_wave3" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/candal"
+            android:text="О НАС"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:id="@+id/linear_l2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/linear_ll"
+            android:layout_height="50dp"
+            android:layout_below="@id/undertopviewabus"
+            android:layout_marginTop="10dp"
             android:background="#641EAA"
             android:gravity="center"
             android:orientation="vertical"
@@ -95,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/linear_l2"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="50dp"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingLeft="15dp"
@@ -136,7 +118,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:background="@android:color/black" />
-
 
 
         <LinearLayout
@@ -238,7 +219,7 @@
         <LinearLayout
             android:id="@+id/linear_l6"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_below="@+id/linear_l5"
             android:layout_marginTop="40dp"
             android:background="#641EAA"
@@ -266,7 +247,6 @@
 
 
         </LinearLayout>
-
 
 
         <LinearLayout
@@ -303,7 +283,7 @@
                 android:fontFamily="@font/athiti"
                 android:text="fermisupport@gmail.com"
                 android:textColor="@android:color/black"
-                android:textSize="18dp" />
+                android:textSize="17dp" />
 
         </LinearLayout>
 
@@ -315,7 +295,6 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
             android:background="@android:color/black" />
-
 
 
         <LinearLayout
@@ -366,13 +345,12 @@
             android:background="@android:color/black" />
 
 
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:layout_below="@id/linear_l8"
-            android:layout_marginTop="50dp"
-            android:background="#641EAA"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/ic_wave2"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -382,7 +360,7 @@
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="17dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="140dp"
                 android:layout_marginBottom="10dp"
                 android:fontFamily="@font/antic"
                 android:text="@string/creator_name"
@@ -390,8 +368,6 @@
                 android:textSize="16dp"
                 android:textStyle="bold"
                 android:visibility="visible" />
-
-
         </LinearLayout>
 
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fermi App</string>
+    <string name="app_name">Fermi</string>
     <string name="creator_name">BY: DAD TEAM</string>
     <string name="btnLogin">ВХОД</string>
     <string name="btnRegister">РЕГИСТРАЦИЯ</string>
@@ -20,4 +20,15 @@
     <string name="topics">РАЗДЕЛЫ</string>
     <string name="practice">ПРАКТИКА</string>
     <string name="tables">ТАБЛИЦА</string>
+    <string name="error">Ошибка</string>
+    <string name="ok">ОК</string>
+    <string name="can_not_create">Невозможно создать аккаунт</string>
+    <string name="invalid_account">Недействительный аккаунт</string>
+    <string name="username_exists">Пользователь уже существует</string>
+    <string name="user_name">Имя:</string>
+    <string name="email_name">Email:</string>
+    <string name="password_name">Пароль:</string>
+    <string name="failed">Неуспешно</string>
+    <string name="write_all">Пожалуйста заполните все поля!</string>
+
 </resources>

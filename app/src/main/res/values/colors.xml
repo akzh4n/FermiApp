@@ -11,4 +11,5 @@
     <color name="colorPrimaryDark">#0099ff</color>
     <color name="PurpleNeed">#641EAA</color>
     <color name="Gray">#dad9db</color>
+    <color name="colorPrimary">#FF000000</color>
 </resources>

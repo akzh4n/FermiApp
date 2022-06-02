@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -39,7 +40,8 @@ import java.nio.charset.StandardCharsets;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    Button btnRegister, btnLogin;
+    Button btnRegister;
+    TextView textBtnLogin;
     EditText editTextUsername, editTextEmail, editTextPassword, editTextRepassword;
     FirebaseAuth mAuth;
 
@@ -72,8 +74,8 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        btnLogin = findViewById(R.id.btnLogin);
-        btnLogin.setOnClickListener(new View.OnClickListener() {
+        textBtnLogin = (TextView) findViewById(R.id.textBtnLogin);
+        textBtnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onClickLogin(view);

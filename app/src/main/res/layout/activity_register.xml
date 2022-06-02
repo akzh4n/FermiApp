@@ -60,7 +60,7 @@
                 android:id="@+id/editTextUsername"
                 android:layout_width="280dp"
                 android:layout_height="50dp"
-                android:layout_marginTop="-20dp"
+                android:layout_marginTop="25dp"
                 android:background="@drawable/round_border"
                 android:drawableStart="@drawable/ic_logperson"
                 android:drawablePadding="16dp"
@@ -126,39 +126,29 @@
                 android:textStyle="bold"
                 app:backgroundTint="#641EAA" />
 
-            <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="250dp"
-                android:layout_height="48dp"
-                android:layout_below="@+id/btnRegister"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/round_bg"
-                android:fontFamily="@font/candal"
-                android:minHeight="48dp"
-                android:text="У вас уже есть аккаунт?"
-                android:textSize="13dp"
-                android:textStyle="bold"
-                app:backgroundTint="#641EAA" />
 
+            <TextView
+                android:id="@+id/textBtnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/candal"
+                android:text="У вас уже есть аккаунт?"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/google_signup"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_below="@+id/btnLogin"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="25dp"
                 android:background="@drawable/ic_google" />
 
 
         </LinearLayout>
-
-        <View
-            android:id="@+id/underview2"
-            android:layout_width="wrap_content"
-            android:layout_height="130dp"
-            android:layout_below="@+id/linear_register"
-            android:layout_marginTop="-70dp"
-            android:background="@drawable/ic_wave2" />
 
 
     </RelativeLayout>

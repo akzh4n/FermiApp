@@ -55,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="200dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -113,9 +113,9 @@
         <View
             android:id="@+id/underview"
             android:layout_width="wrap_content"
-            android:layout_height="170dp"
+            android:layout_height="200dp"
             android:layout_below="@+id/linear_login"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/ic_wave2" />
 
     </RelativeLayout>

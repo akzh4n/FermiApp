@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeActivity">
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.newfermiapp.HomeActivity"
+        android:label="HomeActivity" />
+    <activity
+        android:id="@+id/aboutUsActivity"
+        android:name="com.example.newfermiapp.AboutUsActivity"
+        android:label="AboutUsActivity" />
+    <activity
+        android:id="@+id/userProfileActivity"
+        android:name="com.example.newfermiapp.UserProfileActivity"
+        android:label="UserProfileActivity" />
+</navigation>

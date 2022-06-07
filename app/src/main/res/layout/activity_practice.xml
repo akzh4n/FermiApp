@@ -6,65 +6,39 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:padding="-10dp"
-    tools:context=".PracticeActivity"
+    tools:context=".TopicsActivity"
     tools:ignore="SpeakableTextPresentCheck">
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
 
-
-
         <View
             android:id="@+id/topview4"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="180dp"
             android:background="@color/PurpleNeed" />
-
-        <View
-            android:id="@+id/unverview4"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@drawable/ic_secondwave" />
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="320dp"
-            android:layout_marginTop="-150dp"
-            android:background="@drawable/round_profile"
-            android:src="@drawable/person_icon" />
 
         <TextView
             android:id="@+id/textView5"
-            android:layout_width="500dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="-50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="60dp"
             android:fontFamily="@font/candal"
             android:text="@string/practice"
             android:textColor="#FFFFFF"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="335dp"
-            android:layout_marginTop="-70dp"
-            android:fontFamily="@font/candal"
-            android:text="A"
-            android:textSize="40dp"
+            android:textSize="30dp"
             android:textStyle="bold" />
 
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="480dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="140dp"
             android:alignmentMode="alignMargins"
             android:columnCount="2"
             android:columnOrderPreserved="false"
@@ -77,6 +51,7 @@
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="6dp">
 
@@ -100,7 +75,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="61dp"
+                    android:layout_marginLeft="46dp"
                     android:layout_marginTop="105dp"
                     android:fontFamily="@font/candal"
                     android:text="МЕХАНИКА"
@@ -112,7 +87,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
@@ -140,7 +115,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="62dp"
+                    android:layout_marginLeft="70dp"
                     android:layout_marginTop="105dp"
                     android:fontFamily="@font/candal"
                     android:text="МКТ"
@@ -178,7 +153,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="42dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="106dp"
                     android:fontFamily="@font/candal"
                     android:text="ЭЛЕКТРИЧЕСТВО"
@@ -217,7 +192,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="41dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_marginTop="106dp"
                     android:fontFamily="@font/candal"
                     android:text="МАГНИТЫ"
@@ -254,7 +229,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="74dp"
+                    android:layout_marginLeft="58dp"
                     android:layout_marginTop="105dp"
                     android:fontFamily="@font/candal"
                     android:text="ОПТИКА"
@@ -291,7 +266,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="48dp"
+                    android:layout_marginLeft="55dp"
                     android:layout_marginTop="105dp"
                     android:fontFamily="@font/candal"
                     android:text="КВАНТЫ"
@@ -303,8 +278,18 @@
 
         </GridLayout>
 
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/PurpleNeed"
+            app:itemIconTint="@drawable/selector"
+            app:itemTextColor="@drawable/selector"
+            app:menu="@menu/menu_navigation2" />
 
-    </LinearLayout>
+    </RelativeLayout>
+
 
 
 </LinearLayout>

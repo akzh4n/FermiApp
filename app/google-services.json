@@ -15,7 +15,7 @@
       "oauth_client": [
         {
           "client_id": "123772728975-e9vongqk8lqbfpo3vfi17ldh62atllnl.apps.googleusercontent.com",
-          "client_type": 1,
+          "client_type": 3,
           "android_info": {
             "package_name": "com.example.newfermiapp",
             "certificate_hash": "0ae366ee8848b1fc86b7adfafc735e1fad8668c4"

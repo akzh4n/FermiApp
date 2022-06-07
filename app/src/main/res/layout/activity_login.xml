@@ -55,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="180dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -104,7 +104,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_below="@+id/btnLogin"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:background="@drawable/ic_google" />
 
 
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="200dp"
             android:layout_below="@+id/linear_login"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/ic_wave2" />
 
     </RelativeLayout>

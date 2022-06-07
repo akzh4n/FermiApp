@@ -2,11 +2,14 @@ package com.example.newfermiapp;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class TablesActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -19,12 +22,38 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_tables);
 
 
-        btnMech2 = (ImageButton) findViewById(R.id.btnMech2);
-        btnMKT2 = (ImageButton) findViewById(R.id.btnMKT2);
-        btnElectrodyn2 = (ImageButton) findViewById(R.id.btnElectrodyn2);
-        btnMagn2 = (ImageButton) findViewById(R.id.btnMagn2);
-        btnOptica2 = (ImageButton) findViewById(R.id.btnOptica2);
-        btnQuantum2 = (ImageButton) findViewById(R.id.btnQuantum2);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation2);
+
+
+        bottomNavigationView.setSelectedItemId(R.id.tables);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.practice:
+                        startActivity(new Intent(getApplicationContext(), PracticeActivity.class));
+                        overridePendingTransition(0, 0);
+
+                    case R.id.topics:
+                        startActivity(new Intent(getApplicationContext(), TopicsActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+
+                    case R.id.tables:
+                        return true;
+                }
+                return  false;
+            }
+        });
+
+
+        btnMech2 = (ImageButton) findViewById(R.id.btnMech);
+        btnMKT2 = (ImageButton) findViewById(R.id.btnMKT);
+        btnElectrodyn2 = (ImageButton) findViewById(R.id.btnElectrodyn);
+        btnMagn2 = (ImageButton) findViewById(R.id.btnMagn);
+        btnOptica2 = (ImageButton) findViewById(R.id.btnOptica);
+        btnQuantum2 = (ImageButton) findViewById(R.id.btnQuantum);
 
         btnMech2.setOnClickListener(this);
         btnMKT2.setOnClickListener(this);
@@ -39,7 +68,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case R.id.btnMech2:
+            case R.id.btnMech:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;
@@ -50,7 +79,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
 
 
         switch(v.getId()) {
-            case R.id.btnMKT2:
+            case R.id.btnMKT:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;
@@ -59,7 +88,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         switch(v.getId()) {
-            case R.id.btnElectrodyn2:
+            case R.id.btnElectrodyn:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;
@@ -68,7 +97,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         switch(v.getId()) {
-            case R.id.btnMagn2:
+            case R.id.btnMagn:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;
@@ -77,7 +106,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         switch(v.getId()) {
-            case R.id.btnOptica2:
+            case R.id.btnOptica:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;
@@ -85,7 +114,7 @@ public class TablesActivity extends AppCompatActivity implements View.OnClickLis
                 break;
         }
         switch(v.getId()) {
-            case R.id.btnQuantum2:
+            case R.id.btnQuantum:
                 Intent intent = new Intent(this, TablesActivity.class);
                 startActivity(intent);
                 break;

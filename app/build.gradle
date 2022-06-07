@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "com.example.newfermiapp"
         minSdkVersion 28
-        targetSdkVersion 32
+        targetSdkVersion 31
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -27,6 +27,12 @@ android {
 
         }
     }
+
+    buildFeatures{
+        viewBinding true
+    }
+
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -50,6 +56,11 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:21.0.0'
     implementation 'com.google.android.gms:play-services-auth:20.2.0'
     implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'com.firebaseui:firebase-ui-auth:8.0.1'
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'androidx.navigation:navigation-fragment:2.4.2'
+    implementation 'androidx.navigation:navigation-ui:2.4.2'
+    implementation 'org.jetbrains:annotations:16.0.2'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

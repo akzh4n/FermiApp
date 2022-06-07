@@ -1,19 +1,22 @@
 package com.example.newfermiapp;
 
-import android.app.AppComponentFactory;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnSettings, btnAboutUs, btnStart;
+    Button btnPhysics;
     FirebaseAuth mAuth;
+
 
 
     @Override
@@ -21,13 +24,38 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
 
-        btnSettings = (Button) findViewById(R.id.btnSettings);
-        btnAboutUs = (Button) findViewById(R.id.btnAboutUs);
-        btnStart = (Button) findViewById(R.id.btnStart);
-        btnSettings.setOnClickListener(this);
-        btnAboutUs.setOnClickListener(this);
-        btnStart.setOnClickListener(this);
+
+        bottomNavigationView.setSelectedItemId(R.id.home);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.info:
+                        startActivity(new Intent(getApplicationContext(), AboutUsActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+
+                    case R.id.home:
+                        return true;
+
+                    case R.id.profile:
+                        startActivity(new Intent(getApplicationContext(), UserProfileActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+                }
+                return  false;
+            }
+        });
+
+
+
+
+
+        btnPhysics = (Button) findViewById(R.id.btnPhysics);
+        btnPhysics.setOnClickListener(this);
 
 
         mAuth = FirebaseAuth.getInstance();
@@ -39,30 +67,11 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View v) {
 
-            switch (v.getId()) {
-            case R.id.btnSettings:
-                Intent intent = new Intent(this, UserProfileActivity.class);
-                startActivity(intent);
-                break;
-            default:
-                break;
-
-             }
-
-
-             switch(v.getId()) {
-                case R.id.btnAboutUs:
-                        Intent intent = new Intent(this, AboutUsActivity.class);
-                        startActivity(intent);
-                        break;
-                    default:
-                        break;
-                }
 
 
                 switch(v.getId()) {
-                    case R.id.btnStart:
-                        Intent intent = new Intent(this, StartActivity.class);
+                    case R.id.btnPhysics:
+                        Intent intent = new Intent(this, TopicsActivity.class);
                         startActivity(intent);
                         break;
                     default:

@@ -1,13 +1,15 @@
 package com.example.newfermiapp;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class TopicsActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -20,7 +22,35 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_topics);
 
 
-         btnMech = (ImageButton)findViewById(R.id.btnMech);
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation2);
+
+
+        bottomNavigationView.setSelectedItemId(R.id.topics);
+
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.practice:
+                        startActivity(new Intent(getApplicationContext(), PracticeActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+
+                    case R.id.topics:
+                        return true;
+
+                    case R.id.tables:
+                        startActivity(new Intent(getApplicationContext(), TablesActivity.class));
+                        overridePendingTransition(0, 0);
+                        return true;
+                }
+                return  false;
+            }
+        });
+
+
+
+        btnMech = (ImageButton)findViewById(R.id.btnMech);
          btnMKT = (ImageButton)findViewById(R.id.btnMKT);
          btnElectrodyn = (ImageButton)findViewById(R.id.btnElectrodyn);
          btnMagn = (ImageButton)findViewById(R.id.btnMagn);

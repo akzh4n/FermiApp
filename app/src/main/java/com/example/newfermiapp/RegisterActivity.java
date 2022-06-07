@@ -48,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
     ImageView google_img;
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
-    int RC_SIGN_IN = 125;
+    int RC_SIGN_IN = 123;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,11 +92,11 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
 
-
+// GOOGLE SIGN UP
 
     private void createRequest() {
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestId()
+                .requestIdToken("123772728975-e9vongqk8lqbfpo3vfi17ldh62atllnl.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
         gsc = GoogleSignIn.getClient(this, gso);
@@ -146,7 +146,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-
+// REGISTER BUTTON
     public void onClickRegister(View view) {
         String email = editTextEmail.getText().toString().trim();
         String pass = editTextPassword.getText().toString().trim();

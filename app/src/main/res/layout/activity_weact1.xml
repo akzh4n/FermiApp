@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИМПУЛЬС ТЕЛА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Пуля 22-го калибра имеет массу всего 2 г. Если кому-нибудь бросить такую пулю, то он легко сможет поймать ее даже без перчаток. Если же попытаться поймать такую пулю, вылетевшую из дула со скоростью 300 м/с, то даже перчатки тут не помогут.  Если на тебя катится игрушечная тележка, ты сможешь остановить ее носком ноги. Если на тебя катится грузовик, следует уносить ноги с его пути.  Импульс это векторная величина, которая определяется по формуле"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="640dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="330dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/ip1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="490dp"
+                android:fontFamily="@font/athiti"
+                android:text="Импульс служит мерой того, насколько велика должна быть сила, действующая в течение определенного времени, чтобы остановить или разогнать его с места до данной скорости.  Направление вектора импульса всегда совпадает с направлением вектора скорости.  Если тело покоится, импульс равен нулю. Ненулевым импульсом обладает любое, движущееся тело. Например, когда мяч покоится, его импульс равен нулю. После удара он приобретает импульс. Импульс тела изменяется, так как изменяется скорость."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/sytext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="760dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИМПУЛЬС СИЛЫ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext5"
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изменение импульса тела равно импульсу равнодействующей всех сил, действующих на тело. Это иная формулировка второго закона Ньютона"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="400dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="900dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/ip2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

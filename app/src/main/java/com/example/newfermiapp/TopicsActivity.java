@@ -9,6 +9,12 @@ import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.newfermiapp.topics.mechanicsgroup.Kinematics;
+import com.example.newfermiapp.topics.Electricity;
+import com.example.newfermiapp.topics.MKT;
+import com.example.newfermiapp.topics.Magnets;
+import com.example.newfermiapp.topics.Optica;
+import com.example.newfermiapp.topics.Quantum;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class TopicsActivity extends AppCompatActivity implements View.OnClickListener {
@@ -72,7 +78,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
 
         switch (v.getId()) {
             case R.id.btnMech:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, Kinematics.class);
                 startActivity(intent);
                 break;
             default:
@@ -83,7 +89,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
 
         switch(v.getId()) {
             case R.id.btnMKT:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, MKT.class);
                 startActivity(intent);
                 break;
             default:
@@ -92,7 +98,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
 
         switch(v.getId()) {
             case R.id.btnElectrodyn:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, Electricity.class);
                 startActivity(intent);
                 break;
             default:
@@ -101,7 +107,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
 
         switch(v.getId()) {
             case R.id.btnMagn:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, Magnets.class);
                 startActivity(intent);
                 break;
             default:
@@ -110,7 +116,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
 
         switch(v.getId()) {
             case R.id.btnOptica:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, Optica.class);
                 startActivity(intent);
                 break;
             default:
@@ -118,7 +124,7 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
         }
         switch(v.getId()) {
             case R.id.btnQuantum:
-                Intent intent = new Intent(this, TopicsActivity.class);
+                Intent intent = new Intent(this, Quantum.class);
                 startActivity(intent);
                 break;
             default:

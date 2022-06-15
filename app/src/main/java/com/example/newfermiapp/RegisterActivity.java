@@ -45,10 +45,6 @@ public class RegisterActivity extends AppCompatActivity {
     EditText editTextUsername, editTextEmail, editTextPassword, editTextRepassword;
     FirebaseAuth mAuth;
 
-    ImageView google_img;
-    GoogleSignInOptions gso;
-    GoogleSignInClient gsc;
-    int RC_SIGN_IN = 123;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,17 +58,6 @@ public class RegisterActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-
-        google_img = (ImageView) findViewById(R.id.google_signup);
-        google_img.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                createRequest();
-                SignIn();
-
-
-            }
-        });
 
         textBtnLogin = (TextView) findViewById(R.id.textBtnLogin);
         textBtnLogin.setOnClickListener(new View.OnClickListener() {
@@ -92,54 +77,6 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
 
-// GOOGLE SIGN UP
-
-    private void createRequest() {
-        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("123772728975-e9vongqk8lqbfpo3vfi17ldh62atllnl.apps.googleusercontent.com")
-                .requestEmail()
-                .build();
-        gsc = GoogleSignIn.getClient(this, gso);
-
-
-    }
-    private void SignIn() {
-        Intent signInIntent = gsc.getSignInIntent();
-        startActivityForResult(signInIntent, RC_SIGN_IN);
-
-
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if(requestCode == RC_SIGN_IN) {
-            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
-            try {
-                GoogleSignInAccount account = task.getResult(ApiException.class);
-                firebaseAuthWithGoogle(account);
-            } catch (ApiException e) {
-                Toast.makeText(this,e.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
-    private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
-        AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
-        mAuth.signInWithCredential(credential).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful()) {
-                    FirebaseUser user = mAuth.getCurrentUser();
-                    Intent intent = new Intent(RegisterActivity.this, HomeActivity.class);
-                    startActivity(intent);
-                }
-                else {
-                    Toast.makeText(RegisterActivity.this, "Ошибка авторизаций", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-    }
 
 
 

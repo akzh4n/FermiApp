@@ -15,6 +15,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp" >
         <activity
+            android:name=".quizespractice.QuizMechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.we.weact1"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.kinematics.kinemact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.kinematics.kinemact1"
+            android:exported="false" />
+        <activity
+            android:name=".topics.mechanicsgroup.Kinematics"
+            android:exported="false" />
+        <activity
+            android:name=".topics.mechanicsgroup.WE"
+            android:exported="false" />
+        <activity
+            android:name=".topics.mechanicsgroup.Statics"
+            android:exported="false" />
+        <activity
+            android:name=".topics.mechanicsgroup.Dynamics"
+            android:exported="false" />
+        <activity
+            android:name=".topics.Electricity"
+            android:exported="false" />
+        <activity
+            android:name=".topics.Magnets"
+            android:exported="false" />
+        <activity
+            android:name=".topics.MKT"
+            android:exported="false" />
+        <activity
+            android:name=".topics.Optica"
+            android:exported="false" />
+        <activity
+            android:name=".topics.Quantum"
+            android:exported="false" />
+        <activity
             android:name=".UserProfileActivity"
             android:exported="false" />
         <activity
@@ -43,8 +82,7 @@
             android:exported="false" />
         <activity
             android:name=".SplashScreen"
-            android:exported="true"
-            android:label="@string/app_name" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -55,8 +93,6 @@
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

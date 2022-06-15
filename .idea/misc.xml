@@ -50,6 +50,47 @@
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/menu/bottom_menu.xml" value="0.1" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/menu/menu_navigation.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/Akzhan/AndroidStudioProjects/NewFermiApp/app/src/main/res/menu/menu_navigation2.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_back2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wave3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wave4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_wave5.xml" value="0.1415" />
+        <entry key="app/src/main/res/drawable/round_bg.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/round_border.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_aboutus.xml" value="0.1994659423828125" />
+        <entry key="app/src/main/res/layout/activity_dynamics.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_editprofile.xml" value="0.17094879150390624" />
+        <entry key="app/src/main/res/layout/activity_electricity.xml" value="0.22484436035156252" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2638979311342593" />
+        <entry key="app/src/main/res/layout/activity_kinemact1.xml" value="0.18801221838919235" />
+        <entry key="app/src/main/res/layout/activity_kinemact2.xml" value="0.10546522131887985" />
+        <entry key="app/src/main/res/layout/activity_kinematics.xml" value="0.22949371337890628" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4358286728093653" />
+        <entry key="app/src/main/res/layout/activity_magnets.xml" value="0.20154724121093753" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17715911865234377" />
+        <entry key="app/src/main/res/layout/activity_mechanics.xml" value="0.1996579734929457" />
+        <entry key="app/src/main/res/layout/activity_mkt.xml" value="0.3531631469726564" />
+        <entry key="app/src/main/res/layout/activity_optica.xml" value="0.2610087393852861" />
+        <entry key="app/src/main/res/layout/activity_practice.xml" value="0.22397592803578323" />
+        <entry key="app/src/main/res/layout/activity_quantum.xml" value="0.1171875" />
+        <entry key="app/src/main/res/layout/activity_quiz_mech.xml" value="0.258111572265625" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.2526041666666667" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.21452178955078127" />
+        <entry key="app/src/main/res/layout/activity_statics.xml" value="0.1766891479492187" />
+        <entry key="app/src/main/res/layout/activity_tables.xml" value="0.27313488618827164" />
+        <entry key="app/src/main/res/layout/activity_topics.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/activity_userprofile.xml" value="0.2439453125" />
+        <entry key="app/src/main/res/layout/activity_we.xml" value="0.17257690429687506" />
+        <entry key="app/src/main/res/layout/activity_weact1.xml" value="0.10546522131887985" />
+        <entry key="app/src/main/res/layout/fragment_kinemfrag1.xml" value="0.22758026123046884" />
+        <entry key="app/src/main/res/layout/fragment_kinemfrag2.xml" value="0.23198804846731735" />
+        <entry key="app/src/main/res/layout/fragment_kinemfrag4.xml" value="0.10546522131887985" />
+        <entry key="app/src/main/res/layout/fragment_wefrag1.xml" value="0.1741816519829424" />
+        <entry key="app/src/main/res/menu/menu_navigation2.xml" value="0.165625" />
+        <entry key="app/src/main/res/menu/menu_navigation3.xml" value="0.17821350097656252" />
+        <entry key="app/src/main/res/menu/menu_navigation4.xml" value="0.19713541666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>

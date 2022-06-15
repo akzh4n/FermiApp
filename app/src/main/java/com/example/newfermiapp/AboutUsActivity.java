@@ -2,6 +2,7 @@ package com.example.newfermiapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +18,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class AboutUsActivity extends AppCompatActivity implements View.OnClickListener{
 
+    CardView cardShare;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +53,18 @@ public class AboutUsActivity extends AppCompatActivity implements View.OnClickLi
         });
 
 
+        cardShare = findViewById(R.id.cardShare);
 
+        cardShare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.setType("text/plane");
+                String Body = "FERMI - это уникальное приложение для обучения детей из разных классов, присеодиняйтесь к нам и познавайте новые знания легко и просто!";
+                intent.putExtra(Intent.EXTRA_TEXT, Body);
+                startActivity(Intent.createChooser(intent, "Поделиться: "));
+            }
+        });
 
 
     }

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,6 +22,9 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
+
+import de.hdodenhof.circleimageview.CircleImageView;
 
 public class UserProfileActivity  extends AppCompatActivity {
 
@@ -33,6 +37,7 @@ public class UserProfileActivity  extends AppCompatActivity {
     public FirebaseUser user;
     public DatabaseReference reference;
     public String userID;
+    private CircleImageView profileImageView;
 
 
     @Override
@@ -71,6 +76,8 @@ public class UserProfileActivity  extends AppCompatActivity {
         user = FirebaseAuth.getInstance().getCurrentUser();
         reference = FirebaseDatabase.getInstance().getReference("Users");
         userID = user.getUid();
+        profileImageView = (CircleImageView) findViewById(R.id.profile_image);
+
 
         TextUsername = (TextView) findViewById(R.id.EditTextUsername);
         TextEmail = (TextView) findViewById(R.id.EditTextEmail);
@@ -101,6 +108,7 @@ public class UserProfileActivity  extends AppCompatActivity {
             }
         });
 
+        getUserInfo();
 
     }
 
@@ -125,6 +133,26 @@ public class UserProfileActivity  extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void getUserInfo() {
+        reference.child(mAuth.getCurrentUser().getUid()).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if(dataSnapshot.exists() && dataSnapshot.getChildrenCount() > 0){
+                    if(dataSnapshot.hasChild("image"))
+                    {
+                        String image = dataSnapshot.child("image").getValue().toString();
+                        Picasso.get().load(image).into(profileImageView);
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
     }
 
 

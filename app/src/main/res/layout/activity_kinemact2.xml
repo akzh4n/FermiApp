@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.kinematics.kinemact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:backgroundTint="@color/white">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПУТЬ И ПЕРЕМЕЩЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="С понятием пути вы уже неоднократно сталкивались. Познакомимся теперь с новым для вас понятием – перемещением, которое более информативно и полезно в физике, чем понятие пути."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="180dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/pp1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="430dp"
+                android:fontFamily="@font/athiti"
+                android:text="Допустим, из пункта А в пункт В на другом берегу реки нужно переправить груз. Это можно сделать на автомобиле через мост, на катере по реке или на вертолёте. В каждом из этих случаев путь, пройденный грузом, будет разным, но перемещение будет неизменным: из точки А в точку В."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext3"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="580dp"
+                android:fontFamily="@font/athiti"
+                android:text="Перемещением называют вектор, проведённый из начального положения тела в его конечное положение. Вектор перемещения показывает расстояние, на которое переместилось тело, и направление перемещения. Обратите внимание, что направление перемещения и направление движения – два разных понятия."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext4"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="730dp"
+                android:fontFamily="@font/athiti"
+                android:text="Итак, перемещение тела – векторная величина, то есть имеющая пространственное направление и числовое значение (модуль). В отличие от перемещения, путь – скалярная величина, то есть имеющая только числовое значение (и не имеющая пространственного направления)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

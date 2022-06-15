@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ScrollView"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
     android:padding="-10dp"
     android:scrollbars="none">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
         tools:context=".MainActivity">
 
         <View
@@ -53,12 +55,13 @@
             android:layout_height="430dp"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="180dp"
+            android:background="@color/white"
             android:gravity="center"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/editTextUsername"
-                android:layout_width="280dp"
+                android:layout_width="330dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="25dp"
                 android:background="@drawable/round_border"
@@ -67,12 +70,16 @@
                 android:hint="Имя пользователя"
                 android:minHeight="48dp"
                 android:padding="16dp"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
                 android:visibility="visible" />
 
 
             <EditText
                 android:id="@+id/editTextEmail"
-                android:layout_width="280dp"
+                android:layout_width="330dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/username"
                 android:layout_marginTop="10dp"
@@ -82,11 +89,15 @@
                 android:hint="Электронная почта"
                 android:minHeight="48dp"
                 android:padding="16dp"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <EditText
                 android:id="@+id/editTextPassword"
-                android:layout_width="280dp"
+                android:layout_width="330dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/emailfield"
                 android:layout_marginTop="10dp"
@@ -97,11 +108,15 @@
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:padding="16dp"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <EditText
                 android:id="@+id/editTextRepassword"
-                android:layout_width="280dp"
+                android:layout_width="330dp"
                 android:layout_height="50dp"
                 android:layout_below="@+id/password"
                 android:layout_marginTop="10dp"
@@ -112,6 +127,10 @@
                 android:inputType="textPassword"
                 android:minHeight="48dp"
                 android:padding="16dp"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
                 android:visibility="visible" />
 
             <Button
@@ -123,6 +142,7 @@
                 android:background="@drawable/round_border"
                 android:fontFamily="@font/candal"
                 android:text="Регистрация"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 app:backgroundTint="#641EAA" />
 
@@ -131,21 +151,13 @@
                 android:id="@+id/textBtnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="31dp"
+                android:layout_marginLeft="48dp"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/candal"
+                android:fontFamily="@font/athiti"
                 android:text="У вас уже есть аккаунт?"
                 android:textColor="#000000"
                 android:textSize="16dp"
                 android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/google_signup"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:layout_below="@+id/btnLogin"
-                android:layout_marginTop="25dp"
-                android:background="@drawable/ic_google" />
 
 
         </LinearLayout>

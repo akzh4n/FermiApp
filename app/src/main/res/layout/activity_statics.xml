@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    tools:context=".topics.mechanicsgroup.Statics">
+
+    <View
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/PurpleNeed">
+
+    </View>
+
+
+    <View
+        android:id="@+id/topviewofcard"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/up"
+        android:background="@drawable/ic_wave4">
+
+    </View>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation3"
+        android:layout_below="@+id/topviewofcard"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:id="@+id/linearofcards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Момент силы. Правило моментов"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card1"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Рычаги и блоки"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card2"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Центр тяжести тела"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card6"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Давление в твердых телах"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card7"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Давление в жидкостях и газах. Закон Паскаля"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card9"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Сообщающиеся сосуды"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card10"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Гидравлический пресс"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card12"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card11"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/white"
+                    android:backgroundTint="@color/white"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Закон Архимеда. Вес тела в жидкости"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card13"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card12"
+                android:background="@color/white"
+                android:backgroundTint="@color/white">
+
+                <TextView
+                    android:id="@+id/textoftopic13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Плавание тел"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/PurpleNeed"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:liftOnScroll="false"
+        app:menu="@menu/menu_navigation3" />
+
+
+</RelativeLayout>

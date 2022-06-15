@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.newfermiapp.quizespractice.QuizMechActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class PracticeActivity extends AppCompatActivity implements View.OnClickListener {
@@ -69,8 +70,8 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
 
         switch (v.getId()) {
-            case R.id.btnMech:
-                Intent intent = new Intent(this, PracticeActivity.class);
+            case R.id.btnMech1:
+                Intent intent = new Intent(this, QuizMechActivity.class);
                 startActivity(intent);
                 break;
             default:
@@ -80,7 +81,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
 
 
         switch(v.getId()) {
-            case R.id.btnMKT:
+            case R.id.btnMKT1:
                 Intent intent = new Intent(this, PracticeActivity.class);
                 startActivity(intent);
                 break;
@@ -89,7 +90,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         }
 
         switch(v.getId()) {
-            case R.id.btnElectrodyn:
+            case R.id.btnElectrodyn1:
                 Intent intent = new Intent(this, PracticeActivity.class);
                 startActivity(intent);
                 break;
@@ -98,7 +99,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         }
 
         switch(v.getId()) {
-            case R.id.btnMagn:
+            case R.id.btnMagn1:
                 Intent intent = new Intent(this, PracticeActivity.class);
                 startActivity(intent);
                 break;
@@ -107,7 +108,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         }
 
         switch(v.getId()) {
-            case R.id.btnOptica:
+            case R.id.btnOptica1:
                 Intent intent = new Intent(this, PracticeActivity.class);
                 startActivity(intent);
                 break;
@@ -115,7 +116,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
                 break;
         }
         switch(v.getId()) {
-            case R.id.btnQuantum:
+            case R.id.btnQuantum1:
                 Intent intent = new Intent(this, PracticeActivity.class);
                 startActivity(intent);
                 break;

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".topics.MKT">
+
+    <View
+        android:id="@+id/up"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/PurpleNeed">
+
+    </View>
+
+
+    <View
+        android:id="@+id/topviewofcard"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/up"
+        android:background="@drawable/ic_wave4">
+
+    </View>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/topviewofcard"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation4">
+
+
+        <LinearLayout
+            android:id="@+id/linearofcards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <TextView
+                    android:id="@+id/textoftopic1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Основные положения МКТ"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card1">
+
+                <TextView
+                    android:id="@+id/textoftopic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Атомы и Молекулы"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card2">
+
+                <TextView
+                    android:id="@+id/textoftopic3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Идеальный газ"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card3">
+
+                <TextView
+                    android:id="@+id/textoftopic4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Средняя квадратичная скорость"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card4">
+
+                <TextView
+                    android:id="@+id/textoftopic5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Уравнение Клапейрона-Менделеева"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card5">
+
+                <TextView
+                    android:id="@+id/textoftopic6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Изопроцессы"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card6">
+
+                <TextView
+                    android:id="@+id/textoftopic7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Графическое изображение процессов"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card7">
+
+                <TextView
+                    android:id="@+id/textoftopic8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Теплоемкость вещества"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card9"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card8">
+
+                <TextView
+                    android:id="@+id/textoftopic9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Удельная теплота горение"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card9">
+
+                <TextView
+                    android:id="@+id/textoftopic10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Удельная теплота парообразование"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card10">
+
+                <TextView
+                    android:id="@+id/textoftopic11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Удельная теплота плавление"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card12"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card11">
+
+                <TextView
+                    android:id="@+id/textoftopic12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Уравнение теплового баланса"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card13"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card12">
+
+                <TextView
+                    android:id="@+id/textoftopic13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Работа идеального газа"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card14"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card13">
+
+                <TextView
+                    android:id="@+id/textoftopic14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Внутренняя энергия"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card15"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card14">
+
+                <TextView
+                    android:id="@+id/textoftopic15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Первый закон термодинамики"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card17"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card16">
+
+                <TextView
+                    android:id="@+id/textoftopic17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Циклы и Тепловые машины"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card18"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card17">
+
+                <TextView
+                    android:id="@+id/textoftopic18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Второй закон Термодинамики"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card19"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card18">
+
+                <TextView
+                    android:id="@+id/textoftopic19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Относительная влажность"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card20"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@+id/card19">
+
+                <TextView
+                    android:id="@+id/textoftopic20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="23dp"
+                    android:drawableLeft="@drawable/ic_flag"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/athiti"
+                    android:paddingLeft="10dp"
+                    android:text="Поверхностное натяжение"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/PurpleNeed"
+        android:background="@color/PurpleNeed"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:liftOnScroll="false"
+        app:menu="@menu/menu_navigation4" />
+
+</RelativeLayout>

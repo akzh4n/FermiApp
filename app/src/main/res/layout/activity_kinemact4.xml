@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.kinematics.kinemact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="        РАВНОУСКОРЕННОЕ ПРЯМОЛИНЕЙНОЕ ДВИЖЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Ускорение – векторная физическая величина, определяющая быстроту изменения скорости тела. Ускорением тела называют отношение изменения скорости к промежутку времени, в течение которого происходило изменение скорости:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="210dp"
+                android:background="@color/white"
+                android:src="@drawable/ravacce" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="380dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="430dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="где: v0 – начальная скорость тела, v – конечная скорость тела (то есть спустя промежуток времени t). Далее, если иное не указано в условии задачи, мы считаем, что если тело движется с ускорением, то это ускорение остается постоянным. Такое движение тела называется равноускоренным (или равнопеременным). При равноускоренном движении скорость тела изменяется на одинаковую величину за любые равные промежутки времени. Равноускоренное движение бывает собственно ускоренным, когда тело увеличивает скорость движения, и замедленным, когда скорость уменьшается. Для простоты решения задач удобно для замедленного движения брать ускорение со знаком «–». Из предыдущей формулы, следует другая более распространённая формула, описывающая изменение скорости со временем при равноускоренном движении:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="420dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="710dp"
+                android:background="@color/white"
+                android:src="@drawable/ravacc2" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

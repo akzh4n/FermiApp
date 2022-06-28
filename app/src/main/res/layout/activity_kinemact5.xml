@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.kinematics.kinemact5">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="СВОБОДНОЕ ПАДЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="380dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="На все тела, находящиеся в поле тяготения Земли, действует сила тяжести. В отсутствие опоры или подвеса эта сила заставляет тела падать к поверхности Земли. Если пренебречь сопротивлением воздуха, то движение тел только под действием силы тяжести называется свободным падением. Сила тяжести сообщает любым телам, независимо от их формы, массы и размеров, одинаковое ускорение, называемое ускорением свободного падения. Вблизи поверхности Земли ускорение свободного падения составляет:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="350dp"
+                android:background="@color/white"
+                android:src="@drawable/svobodpad1" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="370dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="470dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Это значит, что свободное падение всех тел вблизи поверхности Земли является равноускоренным (но не обязательно прямолинейным) движением. Вначале рассмотрим простейший случай свободного падения, когда тело движется строго по вертикали. Такое движение является равноускоренным прямолинейным движением, поэтому все изученные ранее закономерности и фокусы такого движения подходят и для свободного падения. Только ускорение всегда равно ускорению свободного падения."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

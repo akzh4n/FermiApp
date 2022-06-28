@@ -42,7 +42,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card1"
+                android:id="@+id/mktcard1"
                 android:layout_width="match_parent"
                 android:layout_height="80dp">
 
@@ -63,10 +63,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card2"
+                android:id="@+id/mktcard2"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card1">
+                android:layout_below="@+id/kinemcard1">
 
                 <TextView
                     android:id="@+id/textoftopic2"
@@ -85,10 +85,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card3"
+                android:id="@+id/mktcard3"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card2">
+                android:layout_below="@+id/kinemcard2">
 
                 <TextView
                     android:id="@+id/textoftopic3"
@@ -108,10 +108,10 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card4"
+                android:id="@+id/mktcard4"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card3">
+                android:layout_below="@+id/kinemcard3">
 
                 <TextView
                     android:id="@+id/textoftopic4"
@@ -131,10 +131,10 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card5"
+                android:id="@+id/mktcard5"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card4">
+                android:layout_below="@+id/kinemcard4">
 
                 <TextView
                     android:id="@+id/textoftopic5"
@@ -153,10 +153,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card6"
+                android:id="@+id/mktcard6"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card5">
+                android:layout_below="@+id/kinemcard5">
 
                 <TextView
                     android:id="@+id/textoftopic6"
@@ -175,10 +175,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card7"
+                android:id="@+id/mktcard7"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card6">
+                android:layout_below="@+id/kinemcard6">
 
                 <TextView
                     android:id="@+id/textoftopic7"
@@ -197,10 +197,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card8"
+                android:id="@+id/mktcard8"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card7">
+                android:layout_below="@+id/kinemcard7">
 
                 <TextView
                     android:id="@+id/textoftopic8"
@@ -220,10 +220,10 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card9"
+                android:id="@+id/mktcard9"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card8">
+                android:layout_below="@+id/kinemcard7">
 
                 <TextView
                     android:id="@+id/textoftopic9"
@@ -242,10 +242,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card10"
+                android:id="@+id/mktcard10"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card9">
+                android:layout_below="@+id/kinemcard8">
 
                 <TextView
                     android:id="@+id/textoftopic10"
@@ -265,7 +265,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card11"
+                android:id="@+id/mktcard11"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card10">
@@ -288,7 +288,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card12"
+                android:id="@+id/mktcard12"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card11">
@@ -311,7 +311,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card13"
+                android:id="@+id/mktcard13"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card12">
@@ -334,7 +334,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card14"
+                android:id="@+id/mktcard14"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card13">
@@ -358,7 +358,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card15"
+                android:id="@+id/mktcard15"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card14">
@@ -382,7 +382,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card17"
+                android:id="@+id/mktcard16"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card16">
@@ -405,7 +405,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card18"
+                android:id="@+id/mktcard17"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card17">
@@ -429,7 +429,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card19"
+                android:id="@+id/mktcard18"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card18">
@@ -453,7 +453,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card20"
+                android:id="@+id/mktcard19"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card19">

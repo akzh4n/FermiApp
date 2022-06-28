@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.kinematics.kinemact3">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="СРЕДНЯЯ СКОРОСТЬ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Скорость – векторная величина, характеризующая быстроту перемещения тела в пространстве. Скорость бывает средней и мгновенной. Мгновенная скорость описывает движение в данный конкретный момент времени в данной конкретной точке пространства, а средняя скорость характеризует все движение в целом, в общем, не описывая подробности движения на каждом конкретном участке."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="385dp"
+                android:layout_height="320dp"
+                android:layout_marginTop="290dp"
+                android:background="@color/white"
+                android:src="@drawable/photoaveragevol" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

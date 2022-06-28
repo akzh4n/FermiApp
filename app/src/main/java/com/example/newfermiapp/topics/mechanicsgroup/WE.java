@@ -26,7 +26,7 @@ public class WE extends AppCompatActivity {
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation3);
-        card1 = (CardView) findViewById(R.id.card1) ;
+        card1 = (CardView) findViewById(R.id.kinemcard1) ;
 
 
         card1.setOnClickListener(new View.OnClickListener() {

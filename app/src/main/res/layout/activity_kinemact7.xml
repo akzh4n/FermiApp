@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
-    tools:context=".infomaterials.kinematics.kinemact1">
+    tools:context=".infomaterials.kinematics.kinemact7">
 
 
     <ScrollView
@@ -29,53 +29,46 @@
                 android:id="@+id/sytext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
+                android:layout_marginLeft="70dp"
                 android:layout_marginTop="50dp"
                 android:background="@color/white"
                 android:fontFamily="@font/athiti"
-                android:text="СИСТЕМА СИ"
+                android:text="СЛОЖЕНИЕ СКОРОСТЕЙ"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
 
             <TextView
                 android:id="@+id/syundertext"
-                android:layout_width="390dp"
-                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="100dp"
                 android:background="@color/white"
                 android:fontFamily="@font/athiti"
-                android:text="В основу определения всех вспомогательных единиц в системе СИ положены семь основных единиц измерения. Основными физическими величинами в Международной системе единиц (СИ) являются: длина ( l ); масса ( m ); время ( t ); сила электрического тока ( I ); температура по шкале Кельвина (термодинамическая температура) ( T ); количество вещества ( ν ); сила света ( I v )."
+                android:text="Движение тел можно описывать в различных системах отсчета. С точки зрения кинематики все системы отсчета равноправны. Однако кинематические характеристики движения, такие как траектория, перемещение, скорость, в разных системах оказываются различными. Величины, зависящие от выбора системы отсчета, в которой производится их измерение, называют относительными. Таким образом, покой и движение тела относительны. Классический закон сложения скоростей:"
                 android:textColor="@color/black"
                 android:textSize="14dp" />
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="390dp"
-                android:layout_height="280dp"
-                android:layout_marginTop="280dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="330dp"
                 android:background="@color/white"
-                android:src="@drawable/sy1" />
+                android:src="@drawable/slozhskorost1" />
 
             <TextView
                 android:id="@+id/syundertext2"
-                android:layout_width="390dp"
+                android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginLeft="5dp"
-                android:layout_marginTop="530dp"
+                android:layout_marginTop="450dp"
                 android:background="@color/white"
                 android:fontFamily="@font/athiti"
-                android:text="В Международной системе единиц имеется набор приставок к единицам измерения, которые применяют, если численные значения рассматриваемых величин существенно больше или меньше, чем единица системы, которая применяется без приставки. Эти приставки используются с любыми единицами измерения, в системе СИ они являются десятичными."
+                android:text="Таким образом, абсолютная скорость тела равна векторной сумме его скорости относительно подвижной системы координат и скорости самой подвижной системы отсчета. Или, другими словами, скорость тела в неподвижной системе отсчета равна векторной сумме скорости тела в подвижной системе отсчета и скорости подвижной системы отсчета относительно неподвижной."
                 android:textColor="@color/black"
                 android:textSize="14dp" />
-
-            <ImageView
-                android:id="@+id/imageView5"
-                android:layout_width="390dp"
-                android:layout_height="200dp"
-                android:layout_marginTop="710dp"
-                android:background="@color/white"
-                android:src="@drawable/sy2" />
 
 
         </androidx.cardview.widget.CardView>

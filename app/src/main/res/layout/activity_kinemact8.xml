@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.kinematics.kinemact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="           РАВНОМЕРНОЕ ДВИЖЕНИЕ ПО ОКРУЖНОСТИ"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="370dp"
+                android:layout_height="220dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Движение тела по окружности является частным случаем криволинейного движения. Такой вид движения также рассматривается в кинематике. При криволинейном движении вектор скорости тела всегда направлен по касательной к траектории. То же самое происходит и при движении по окружности (см. рисунок). Равномерное движение тела по окружности характеризуется рядом величин."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="300dp"
+                android:background="@color/white"
+                android:src="@drawable/ravpookr1" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="520dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Период – время, за которое тело, двигаясь по окружности, совершает один полный оборот. Единица измерения – 1 с. Период рассчитывается по формуле: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="650dp"
+                android:background="@color/white"
+                android:src="@drawable/ravpookr2" />
+
+            <TextView
+                android:id="@+id/syundertext6"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Частота – количество оборотов, которое совершило тело, двигаясь по окружности, в единицу времени. Единица измерения – 1 об/с или 1 Гц. Частота рассчитывается по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="930dp"
+                android:background="@color/white"
+                android:src="@drawable/ravpookr3" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

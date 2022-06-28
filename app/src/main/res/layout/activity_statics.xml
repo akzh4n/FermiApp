@@ -44,7 +44,7 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card1"
+                android:id="@+id/statcard1"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:background="@color/white"
@@ -67,10 +67,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card2"
+                android:id="@+id/statcard2"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card1"
+                android:layout_below="@+id/statcard1"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
 
@@ -91,10 +91,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card3"
+                android:id="@+id/statcard3"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card2"
+                android:layout_below="@+id/statcard2"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
 
@@ -117,10 +117,10 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card7"
+                android:id="@+id/statcard4"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card6"
+                android:layout_below="@+id/kinemcard6"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
 
@@ -141,10 +141,10 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card8"
+                android:id="@+id/statcard5"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card7"
+                android:layout_below="@+id/kinemcard7"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
 
@@ -167,10 +167,10 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card10"
+                android:id="@+id/statcard6"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:layout_below="@+id/card9"
+                android:layout_below="@+id/kinemcard8"
                 android:background="@color/white"
                 android:backgroundTint="@color/white">
 
@@ -192,7 +192,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card11"
+                android:id="@+id/statcard7"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card10"
@@ -217,7 +217,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card12"
+                android:id="@+id/statcard8"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card11"
@@ -244,7 +244,7 @@
 
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card13"
+                android:id="@+id/statcard9"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_below="@+id/card12"

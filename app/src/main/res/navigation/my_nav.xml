@@ -14,6 +14,6 @@
         android:label="AboutUsActivity" />
     <activity
         android:id="@+id/userProfileActivity"
-        android:name="com.example.newfermiapp.UserProfileActivity"
+        android:name="com.example.new.UserProfileActivity"
         android:label="UserProfileActivity" />
 </navigation>

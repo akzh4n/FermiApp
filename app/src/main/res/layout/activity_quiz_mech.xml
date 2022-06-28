@@ -27,8 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp"
-        android:fontFamily="@font/athiti"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif"
         android:text="This will be the question"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -52,8 +52,8 @@
             android:fontFamily="sans-serif"
             android:text="Ans A"
             android:textColor="@color/black"
-            android:textSize="13dp"
-            android:textStyle="bold" />
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
 
         <Button
             android:id="@+id/and_B"
@@ -64,8 +64,8 @@
             android:fontFamily="sans-serif"
             android:text="Ans B"
             android:textColor="@color/black"
-            android:textSize="13dp"
-            android:textStyle="bold" />
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
 
         <Button
             android:id="@+id/and_C"
@@ -76,8 +76,8 @@
             android:fontFamily="sans-serif"
             android:text="Ans C"
             android:textColor="@color/black"
-            android:textSize="13dp"
-            android:textStyle="bold" />
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
 
         <Button
             android:id="@+id/and_D"
@@ -88,8 +88,8 @@
             android:fontFamily="sans-serif"
             android:text="Ans D"
             android:textColor="@color/black"
-            android:textSize="13dp"
-            android:textStyle="bold" />
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
 
     </LinearLayout>
 

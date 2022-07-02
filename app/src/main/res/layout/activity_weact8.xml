@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact8">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОН СОХРАНЕНИЕ МЕХАНИЧЕСКОЙ ЭНЕРГИЙ"
+                android:textColor="@color/black"
+                android:textSize="13.5dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Полной механической энергией называется сумма кинетической энергии (т.е. энергии движения) и потенциальной (т.е. энергии взаимодействия тел силами тяготения и упругости): "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="220dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zmc1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если механическая энергия не переходит в другие формы, например, во внутреннюю (тепловую) энергию, то сумма кинетической и потенциальной энергии остаётся неизменной. Если же механическая энергия переходит в тепловую, то изменение механической энергии равно работе силы трения или потерям энергии, или количеству выделившегося тепла и так далее, другими словами изменение полной механической энергии равно работе внешних сил:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="580dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zmc2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext20"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сумма кинетической и потенциальной энергии тел, составляющих замкнутую систему (т.е. такую в которой не действует внешних сил, и их работа соответственно равна нолю) и взаимодействующих между собой силами тяготения и силами упругости, остается неизменной:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="830dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zmc3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext24"
+                android:layout_width="375dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Это утверждение выражает закон сохранения энергии (ЗСЭ) в механических процессах. Он является следствием законов Ньютона. Закон сохранения механической энергии выполняется только тогда, когда тела в замкнутой системе взаимодействуют между собой силами упругости и тяготения. Во всех задачах на закон сохранения энергии всегда будет как минимум два состояния системы тел. Закон гласит, что суммарная энергия первого состояния будет равна суммарной энергии второго состояния."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

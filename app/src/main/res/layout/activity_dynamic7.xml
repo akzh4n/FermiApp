@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.dynamics.dynamic7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="ВРАЩАТЕЛЬНОЕ ДВИЖЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="При движении тела по окружности независимо от того, в какой плоскости происходит движение, тело будет двигаться с центростремительным ускорением, которое будет направлено к центру окружности, по которой движется тело. При этом понятие окружность не надо воспринимать буквально. Тело может проходить только дугу окружности (например, двигаться по мосту). Во всех задачах этого типа одна из осей обязательно выбирается по направлению центростремительного ускорения, т.е. к центру окружности (или дуги окружности). Вторую ось целесообразно направить перпендикулярно первой. В остальном алгоритм решения этих задач совпадает с решением остальных задач по динамике:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="450dp"
+                android:background="@color/white"
+                android:src="@drawable/vrashdvizh" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

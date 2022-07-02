@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.dynamics.dynamic2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОНЫ НЬЮТОНА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/ContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Первый закон Ньютона"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Формулировка: В ИСО, если на тело не действуют никакие силы или действие сил скомпенсировано (то есть равнодействующая сил равна нулю), то тело сохраняет состояние покоя или равномерного прямолинейного движения. Свойство тел сохранять свою скорость при отсутствии действия на него других тел называется инерцией. Поэтому первый закон Ньютона называют законом инерции. Итак, причиной изменения скорости движения тела целиком или его частей всегда является его взаимодействие с другими телами. Для количественного описания изменения движения тела под воздействием других тел необходимо ввести новую величину – массу тела."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Масса – это свойство тела, характеризующее его инертность (способность сохранять скорость постоянной). В Международной системе единиц (СИ) масса тела измеряется в килограммах (кг). Масса тела – скалярная величина. Масса также является мерой количества вещества:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="630dp"
+                android:background="@color/white"
+                android:src="@drawable/zakonnewtona" />
+
+            <TextView
+                android:id="@+id/contentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Второй закон Ньютона"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext7"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="840dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Формулировка: Ускорение, приобретаемое телом в ИСО, прямо пропорционально равнодействующей всех сил, действующих на тело, и обратно пропорционально массе этого тела:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="960dp"
+                android:background="@color/white"
+                android:src="@drawable/zakonnewtona2" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1060dp"
+                android:background="@color/white"
+                android:src="@drawable/zakonnewtona3" />
+
+            <TextView
+                android:id="@+id/syundertext8"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1150dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Если на тело одновременно действуют несколько сил, то под силой в формуле, выражающей второй закон Ньютона, нужно понимать равнодействующую всех сил. Если равнодействующая сила равна нолю, то тело будет оставаться в состоянии покоя или равномерного прямолинейного движения, т.к. ускорение будет нулевым (первый закон Ньютона)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/contentText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Третий закон Ньютона"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext9"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1390dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Формулировка: В ИСО тела действуют друг на друга с силами, равными по модулю и противоположными по направлению, лежащими на одной прямой и имеющими одну физическую природу."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext10"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1500dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Эти силы приложены к разным телам и поэтому не могут уравновешивать друг друга. Обратите внимание, что складывать можно только силы, которые одновременно действуют на одно из тел. При взаимодействии двух тел возникают силы, равные по величине и противоположные по направлению, но складывать их нельзя, т.к. приложены они к разным телам."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1700dp"
+                android:background="@color/white"
+                android:src="@drawable/zakonnewtona4" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

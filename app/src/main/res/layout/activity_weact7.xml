@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/athiti"
+                android:text="КПД"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Коэффициент полезного действия (КПД) – характеристика эффективности системы (устройства, машины) в отношении преобразования или передачи энергии. Он определяется отношением полезно использованной энергии к суммарному количеству энергии, полученному системой (формула уже приведена выше). КПД можно рассчитывать как через работу, так и через мощность. Полезная и затраченная работа (мощность) всегда определяются путем простых логических рассуждений."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="370dp"
+                android:fontFamily="@font/athiti"
+                android:text="В электрических двигателях КПД – отношение совершаемой (полезной) механической работы к электрической энергии, получаемой от источника. В тепловых двигателях – отношение полезной механической работы к затрачиваемому количеству теплоты. В электрических трансформаторах – отношение электромагнитной энергии, получаемой во вторичной обмотке, к энергии, потребляемой первичной обмоткой. В силу своей общности понятие КПД позволяет сравнивать и оценивать с единой точки зрения такие различные системы, как атомные реакторы, электрические генераторы и двигатели, теплоэнергетические установки, полупроводниковые приборы, биологические объекты и т.д."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext20"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="730dp"
+                android:fontFamily="@font/athiti"
+                android:text="Из–за неизбежных потерь энергии на трение, на нагревание окружающих тел и т.п. КПД всегда меньше единицы. Соответственно этому КПД выражается в долях затрачиваемой энергии, то есть в виде правильной дроби или в процентах, и является безразмерной величиной. КПД характеризует как эффективно работает машина или механизм. КПД тепловых электростанций достигает 35–40%, двигателей внутреннего сгорания с наддувом и предварительным охлаждением – 40–50%, динамомашин и генераторов большой мощности – 95%, трансформаторов – 98%."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="1030dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kpd"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

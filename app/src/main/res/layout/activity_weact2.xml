@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОН СОХРАНЕНИЕ ИМПУЛЬСА"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="При взаимодействии тел импульс одного тела может частично или полностью передаваться другому телу. Если на систему тел не действуют внешние силы со стороны других тел, такая система называется замкнутой. В замкнутой системе векторная сумма импульсов всех тел, входящих в систему, остается постоянной при любых взаимодействиях тел этой системы между собой. Этот фундаментальный закон природы называется законом сохранения импульса (ЗСИ). Следствием его являются законы Ньютона. Второй закон Ньютона в импульсной форме может быть записан следующим образом:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="400dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/saveimp1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="510dp"
+                android:fontFamily="@font/athiti"
+                android:text="Как следует из данной формулы, в случае если на систему тел не действует внешних сил, либо действие внешних сил скомпенсировано (равнодействующая сила равна нолю), то изменение импульса равно нолю, что означает, что общий импульс системы сохраняется:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="670dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/saveimp2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext20"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Аналогично можно рассуждать для равенства нулю проекции силы на выбранную ось. Если внешние силы не действуют только вдоль одной из осей, то сохраняется проекция импульса на данную ось, например:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="920dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/saveimp3"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

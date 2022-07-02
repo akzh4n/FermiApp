@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="МОЩНОСТЬ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Работа силы, совершаемая в единицу времени, называется мощностью. Мощность P (иногда обозначают буквой N) – физическая величина, равная отношению работы A к промежутку времени t, в течение которого совершена эта работа:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="250dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mosh1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="370dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="380dp"
+                android:fontFamily="@font/athiti"
+                android:text="По этой формуле рассчитывается средняя мощность, т.е. мощность обобщенно характеризующая процесс. Итак, работу можно выражать и через мощность: A = Pt (если конечно известна мощность и время совершения работы). Единица мощности называется ватт (Вт) или 1 джоуль за 1 секунду. Если движение равномерное, то:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="560dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mosh2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext5"
+                android:layout_width="375dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="@font/athiti"
+                android:text="По этой формуле мы можем рассчитать мгновенную мощность (мощность в данный момент времени), если вместо скорости подставим в формулу значение мгновенной скорости. Как узнать, какую мощность считать? Если в задаче спрашивают мощность в момент времени или в какой-то точке пространства, то считается мгновенная. Если спрашивают про мощность за какой-то промежуток времени или участок пути, то ищите среднюю мощность."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

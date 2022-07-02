@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact5">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="КИНЕТИЧЕСКАЯ ЭНЕРГИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Физическая величина, равная половине произведения массы тела на квадрат его скорости, называется кинетической энергией тела (энергией движения):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="200dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kinet1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext2"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="320dp"
+                android:fontFamily="@font/athiti"
+                android:text="То есть если автомобиль массой 2000 кг движется со скоростью 10 м/с, то он обладает кинетической энергией равной Ек = 100 кДж и способен совершить работу в 100 кДж. Эта энергия может превратиться в тепловую (при торможении автомобиля нагревается резина колес, дорога и тормозные диски) или может быть потрачена на деформацию автомобиля и тела, с которым автомобиль столкнулся (при аварии). При вычислении кинетической энергии не имеет значения куда движется автомобиль, так как энергия, как и работа, величина скалярная. Тело обладает энергией, если способно совершить работу. Например, движущееся тело обладает кинетической энергией, т.е. энергией движения, и способно совершать работу по деформации тел или придания ускорения телам, с которыми произойдёт столкновение. Физический смысл кинетической энергии: для того чтобы покоящееся тело массой m стало двигаться со скоростью v необходимо совершить работу равную полученному значению кинетической энергии. Если тело массой m движется со скоростью v, то для его остановки необходимо совершить работу равную его первоначальной кинетической энергии. При торможении кинетическая энергия в основном (кроме случаев соударения, когда энергия идет на деформации) «забирается» силой трения."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext21"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Теорема о кинетической энергии: работа равнодействующей силы равна изменению кинетической энергии тела:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1030dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kinet2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext22"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1150dp"
+                android:fontFamily="@font/athiti"
+                android:text="Теорема о кинетической энергии справедлива и в общем случае, когда тело движется под действием изменяющейся силы, направление которой не совпадает с направлением перемещения. Применять данную теорему удобно в задачах на разгон и торможение тела."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

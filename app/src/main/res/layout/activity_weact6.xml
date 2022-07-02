@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.we.weact6">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПОТЕНЦИАЛЬНАЯ ЭНЕРГИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Потенциальная энергия определяется взаимным положением тел (например, положением тела относительно поверхности Земли). Понятие потенциальной энергии можно ввести только для сил, работа которых не зависит от траектории движения тела и определяется только начальным и конечным положениями (так называемые консервативные силы). Работа таких сил на замкнутой траектории равна нулю. Таким свойством обладают сила тяжести и сила упругости. Для этих сил можно ввести понятие потенциальной энергии. Потенциальная энергия тела в поле силы тяжести Земли рассчитывается по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="420dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/pot1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext23"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Физический смысл потенциальной энергии тела: потенциальная энергия равна работе, которую совершает сила тяжести при опускании тела на нулевой уровень (h – расстояние от центра тяжести тела до нулевого уровня). Если тело обладает потенциальной энергией, значит оно способно совершить работу при падении этого тела с высоты h до нулевого уровня. Работа силы тяжести равна изменению потенциальной энергии тела, взятому с противоположным знаком:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="800dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/pot2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.dynamics.dynamic4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="ВЕС ТЕЛА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Весом тела называют силу, с которой тело действует на опору или подвес. Вес – сила, которая, как и все силы, измеряется в ньютонах (а не в килограммах), и обозначается P. При этом предполагается, что тело неподвижно относительно опоры или подвеса. Согласно третьему закону Ньютона вес зачастую равен либо силе реакции опоры (если тело лежит на опоре), либо силы натяжении нити или силе упругости пружины (если тело висит на нити или пружине). Сразу оговоримся - вес не всегда равен силе тяжести."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext12"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Невесомость – это состояние, которое наступает, когда вес тела равен нолю. В этом состоянии тело не действует на опору, а опора на тело. Увеличение веса тела, вызванное ускоренным движением опоры или подвеса, называют перегрузкой. Перегрузка рассчитывается по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="550dp"
+                android:background="@color/white"
+                android:src="@drawable/vestela" />
+
+            <TextView
+                android:id="@+id/syundertext13"
+                android:layout_width="375dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="680dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="P – вес тела, испытывающего перегрузку, P0 – вес этого же тела в состоянии покоя."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

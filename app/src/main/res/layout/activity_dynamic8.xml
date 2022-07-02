@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.dynamics.dynamic8">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОН ВСЕМИРНОГО ТЯГОТЕНИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Все тела притягиваются друг к другу с силами, прямо пропорциональными их массам и обратно пропорциональными квадрату расстояния между ними. Таким образом закон всемирного тяготения в виде формулы выглядит следующим образом:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="250dp"
+                android:background="@color/white"
+                android:src="@drawable/vsemtag1" />
+
+            <TextView
+                android:id="@+id/syundertext18"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Такая запись закона всемирного тяготения справедлива для материальных точек, шаров, сфер, для которых r измеряется между центрами. Коэффициент пропорциональности G одинаков для всех тел в природе. Его называют гравитационной постоянной. В системы СИ он равен:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="270dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="550dp"
+                android:background="@color/white"
+                android:src="@drawable/vsemtag2" />
+
+            <TextView
+                android:id="@+id/syundertext19"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="720dp"
+                android:background="@color/white"
+                android:fontFamily="@font/athiti"
+                android:text="Одним из проявлений силы всемирного тяготения является сила тяжести. Так принято называть силу притяжения тел к Земле или другой планете. Если M – масса планеты, Rп – ее радиус, то ускорение свободного падения у поверхности планеты:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="850dp"
+                android:background="@color/white"
+                android:src="@drawable/vsemtag3" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

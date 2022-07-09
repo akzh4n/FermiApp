@@ -14,6 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
+
+        <activity
+            android:name=".infomaterials.statics.statact7"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact6"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact5"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact4"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact3"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.statics.statact1"
+            android:exported="false" />
         <activity
             android:name=".infomaterials.we.weact8"
             android:exported="false" />

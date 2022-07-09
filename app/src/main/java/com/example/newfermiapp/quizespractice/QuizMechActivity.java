@@ -52,9 +52,10 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
 
         loadNewQuestion();
 
+
+
     }
 
-    @Override
     public void onClick(View view) {
 
         ansA.setBackgroundColor(Color.WHITE);
@@ -106,4 +107,5 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
     public void exitQuiz() {
         startActivity(new Intent(getApplicationContext(), PracticeActivity.class));
     }
+
 }

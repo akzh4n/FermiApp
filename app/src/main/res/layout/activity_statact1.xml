@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="МОМЕНТ СИЛЫ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если тело может вращаться относительно некоторой оси, то для его равновесия недостаточно равенства нулю равнодействующей всех сил. Вращающее действие силы зависит не только от ее величины, но и от расстояния между линией действия силы и осью вращения. Длина перпендикуляра, проведенного от оси вращения до линии действия силы, называется плечом силы. Для описания причин вызывающих вращения и условия равновесия тела в статике вводится новое понятие - момент силы. Произведение модуля силы F на плечо d и называется моментом силы M. Таким образом момент силы в статике вычисляется по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext21"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="560dp"
+                android:fontFamily="@font/athiti"
+                android:text="Обычно в физике используется следующее правило знаков: если сила поворачивает тело по часовой стрелке, то ее момент считается положительным, а если против – то отрицательным. Момент силы может и равняться нулю, если сила проходит (сама или продолжением) через ось. Обратите внимание: если Вы перепутаете, и возьмете знаки моментов наоборот (по часовой стрелке со знаком минус, а против часовой со знаком плюс), то ничего страшного не произойдет. Поэтому, важно запомнить, что моменты сил, вращающих тело в различных направлениях относительно часовой стрелки, берутся с различными знаками. Обратите внимание, что момент силы зависит не только от величины силы, но и от ее плеча. Следовательно, одно и то же значение момента можно получить двумя способами: взять большую силу и малое плечо или взять малую силу и большое плечо. Вывод: чем больше плечо, тем меньшую силу необходимо прилагать для получения одного и того же результата."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="440dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mom1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext22"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПРАВИЛА МОМЕНТОВ"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext25"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1090dp"
+                android:fontFamily="@font/athiti"
+                android:text="Тело, имеющее неподвижную ось вращения, находится в равновесии, если алгебраическая сумма моментов всех приложенных к телу сил относительно этой оси равна нулю:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="1200dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mom2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -80,7 +80,7 @@
         <entry key="app/src/main/res/layout/activity_kinemact3.xml" value="0.3156494140625" />
         <entry key="app/src/main/res/layout/activity_kinemact4.xml" value="0.3271403311821611" />
         <entry key="app/src/main/res/layout/activity_kinemact5.xml" value="0.2363352774712236" />
-        <entry key="app/src/main/res/layout/activity_kinemact6.xml" value="0.33840942382812506" />
+        <entry key="app/src/main/res/layout/activity_kinemact6.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_kinemact7.xml" value="0.30554504394531257" />
         <entry key="app/src/main/res/layout/activity_kinemact8.xml" value="0.2603205679985674" />
         <entry key="app/src/main/res/layout/activity_kinematics.xml" value="0.12217254638671877" />
@@ -95,7 +95,14 @@
         <entry key="app/src/main/res/layout/activity_quiz_mech.xml" value="0.258111572265625" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18100280761718754" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.21452178955078127" />
-        <entry key="app/src/main/res/layout/activity_statics.xml" value="0.1766891479492187" />
+        <entry key="app/src/main/res/layout/activity_statact1.xml" value="0.27707112630208336" />
+        <entry key="app/src/main/res/layout/activity_statact2.xml" value="0.2607428444001136" />
+        <entry key="app/src/main/res/layout/activity_statact3.xml" value="0.3019795735677083" />
+        <entry key="app/src/main/res/layout/activity_statact4.xml" value="0.31856282552083337" />
+        <entry key="app/src/main/res/layout/activity_statact5.xml" value="0.3249577840169271" />
+        <entry key="app/src/main/res/layout/activity_statact6.xml" value="0.25756734212239585" />
+        <entry key="app/src/main/res/layout/activity_statact7.xml" value="0.25192769368489587" />
+        <entry key="app/src/main/res/layout/activity_statics.xml" value="0.3278854370117187" />
         <entry key="app/src/main/res/layout/activity_tables.xml" value="0.27313488618827164" />
         <entry key="app/src/main/res/layout/activity_topics.xml" value="0.2598958333333333" />
         <entry key="app/src/main/res/layout/activity_userprofile.xml" value="0.2439453125" />
@@ -104,9 +111,9 @@
         <entry key="app/src/main/res/layout/activity_weact2.xml" value="0.33436149590276015" />
         <entry key="app/src/main/res/layout/activity_weact3.xml" value="0.22160491943359378" />
         <entry key="app/src/main/res/layout/activity_weact4.xml" value="0.38133341471354165" />
-        <entry key="app/src/main/res/layout/activity_weact5.xml" value="0.3153108977582289" />
+        <entry key="app/src/main/res/layout/activity_weact5.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_weact6.xml" value="0.2941957854535414" />
-        <entry key="app/src/main/res/layout/activity_weact7.xml" value="0.3055422210004164" />
+        <entry key="app/src/main/res/layout/activity_weact7.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_weact8.xml" value="0.2820604705121351" />
         <entry key="app/src/main/res/layout/fragment_kinemfrag1.xml" value="0.22758026123046884" />
         <entry key="app/src/main/res/layout/fragment_kinemfrag2.xml" value="0.23198804846731735" />

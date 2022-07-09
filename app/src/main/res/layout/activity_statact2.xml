@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/athiti"
+                android:text="РЫЧАГИ И БЛОКИ"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Как вы знаете из практики, иногда необходимо изменить направление силы, увеличить или уменьшить ее величину. Этой цели служат простые механизмы: устройства, преобразующие величину или направление силы с помощью механических явлений. Для всех простых механизмов справедливо золотое правило механики: выиграл в силе – проиграл в перемещении (или наоборот). Это значит, что при увеличении силы за счет некоторого механизма неизбежно будет уменьшено и перемещение. Рассмотрим основные типы простых механизмов изучаемых в школьной физике:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Равноплечий рычаг (весы)"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext26"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="430dp"
+                android:fontFamily="@font/athiti"
+                android:text="- рычаг, ось вращения которого проходит через его геометрический центр."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="490dp"
+                android:fontFamily="@font/athiti"
+                android:text="Неравноплечий рычаг"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext27"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="520dp"
+                android:fontFamily="@font/athiti"
+                android:text="- рычаг ось вращения которого проходит через произвольную точку."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="580dp"
+                android:fontFamily="@font/athiti"
+                android:text="Неподвижный блок"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext28"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="610dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это диск с закрепленной осью, через который переброшена нить. Неподвижный блок используется для изменения направления приложения силы. Если трение в блоке отсутствует, нить невесома, то сила ее натяжения до и после блока не изменяется. Таким образом, неподвижный блок не дает ни выигрыша в силе, ни проигрыша в перемещении."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="790dp"
+                android:fontFamily="@font/athiti"
+                android:text="Подвижный блок"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext29"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="820dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это диск, ось которого может двигаться поступательно. Подвижный блок позволяет уменьшить силу в два раза, одновременно с этим вдвое увеличивая перемещение."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="930dp"
+                android:fontFamily="@font/athiti"
+                android:text="Наклонная плоскость"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext30"
+                android:layout_width="375dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="960dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это устройство применяется для поднятия тяжестей. При достаточно малых значениях угла наклона и небольшом коэффициенте трения сила, которую необходимо приложить чтобы поднимать некоторое тело вдоль наклонной плоскости может быть значительно меньше веса тела. Таким образом, подъем становится легче. Естественно, при этом в полном соответствии с «золотым правилом» увеличивается перемещение тела."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

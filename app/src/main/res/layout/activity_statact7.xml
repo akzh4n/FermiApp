@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/athiti"
+                android:text="ГИДРАВЛИЧЕСКИЙ ПРЕСС"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если оба вертикально расположенных цилиндра сообщающихся сосудов закрыть поршнями, то с помощью внешних сил, приложенных к поршням, в жидкости можно создать большое давление p, во много раз превышающее гидростатическое давление ρgh в любой точке системы. Тогда можно считать, что во всей системе устанавливается одинаковое давление p (согласно закону Паскаля). Если поршни имеют разные площади S1 и S2, то на них со стороны жидкости действуют разные силы F1 = pS1 и F2 = pS2. Такие же по модулю, но противоположно направленные внешние силы должны быть приложены к поршням для удержания системы в равновесии. Таким образом, для гидравлического пресса имеем формулу: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="480dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/gidra1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/athiti"
+                android:text="КПД Гидравлического пресса"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext26"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="@font/athiti"
+                android:text="Таким образом, в гидравлическом прессе всё происходит в полном соответствии с «золотым правилом механики»: во сколько раз мы выигрываем в силе, во столько же раз мы проигрываем в расстоянии. При этом ни одна машина не может дать выигрыша в работе. Так как гидравлический пресс является механизмом, то его работу можно характеризовать КПД (коэффициентом полезного действия). КПД гидравлического пресса в задачах по гидростатике рассчитывается по следующей формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="880dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/gidra2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ДАВЛЕНИЕ В ТВЕРДЫХ ТЕЛАХ"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Основным отличием жидкостей от твердых (упругих) тел является способность легко изменять свою форму. Части жидкости могут свободно сдвигаться, перемещаясь друг относительно друга. Поэтому жидкость принимает форму сосуда, в который она налита. В жидкость, как и в газообразную среду, можно погружать твердые тела. В отличие от газов жидкости практически несжимаемы. На тело, погруженное в жидкость или газ, действуют силы, распределенные по поверхности тела. Для описания таких распределенных сил в гидростатике вводится новая физическая величина – давление."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="500dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/davtv1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext32"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Давление определяется как отношение модуля силы F, действующей перпендикулярно поверхности, к площади S этой поверхности:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext33"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="620dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если же сила направлена под некоторым углом к перпендикуляру к площадке, то создаваемое этой силой давление находится по формуле: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="700dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/davtv2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext34"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="870dp"
+                android:fontFamily="@font/athiti"
+                android:text="В системе СИ давление измеряется в паскалях (Па): 1 Па = 1 Н/м2. Часто используются внесистемные единицы: нормальное атмосферное давление (атм) и давление одного миллиметра ртутного столба (мм.рт.ст.): 1 атм = 101325 Па = 760 мм.рт.ст."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

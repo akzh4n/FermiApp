@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact6">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="СООБЩАЮЩИЕСЯ СОСУДЫ"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сообщающимися называют сосуды, имеющие между собой канал, заполненный жидкостью. Наблюдения показывают, что в сообщающихся сосудах любой формы однородная жидкость всегда устанавливается на одном уровне. задачи на сообщающиеся сосуды очень распространены в гидростатике. Иначе ведут себя разнородные жидкости даже в одинаковых по форме и размерам сообщающихся сосудах. Дело в том, что в сообщающихся сосудах должно устанавливаться одинаковое давление на одной и той же высоте во всех частях сосуда. Но если жидкости различные, то и высота столбов этих жидкостей должна быть различной, чтобы создать одинаковое давление. Поэтому, разнородные жидкости в сообщающихся сосудах могут и не устанавливаться на одном уровне."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="300dp"
+                android:layout_height="350dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="500dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sosud1"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

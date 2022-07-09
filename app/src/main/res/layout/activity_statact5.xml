@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.statics.statact5">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Паскаля"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ДАВЛЕНИЕ В ЖИДКОСТЯХ И В ГАЗАХ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- давление, оказываемое на жидкость (или, к слову, газ), передается в любую точку этой жидкости без изменений и во всех направлениях."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="360dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/davzhid1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext32"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/athiti"
+                android:text="Давление жидкости на дно или боковые стенки сосуда зависит от высоты столба жидкости над той точкой в которой измеряется давление. Гидростатическое давление столба жидкости рассчитывается по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext33"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="460dp"
+                android:fontFamily="@font/athiti"
+                android:text="Обратите внимание, что оказываемое давление никоим образом не зависит от формы сосуда, а зависит только от рода жидкости (т.е. её плотности) и от высоты столба этой жидкости. Такое же давление на глубине h в соответствии с законом Паскаля жидкость оказывает и на боковые стенки сосуда. Итак, если в задаче по гидростатике идет речь о давлении столба жидкости на боковую грань в некоторой конкретной точке, то такое давление находится по предыдущей формуле, где h – расстояние от этой точки до поверхности жидкости. Но иногда в задачах по гидростатике необходимо рассчитать среднее давление на всю боковую поверхность сосуда. В таком случае применим формулу:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="780dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/davzhid2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext34"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если жидкость находится в цилиндре под поршнем, то действуя на поршень некоторой внешней силой F, можно создавать в жидкости дополнительное давление p0 = F/S, где: S – площадь поршня. Таким образом, полное давление в жидкости на глубине h можно записать в виде:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1050dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/davzhid3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext35"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1200dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если поршень убрать, то давление на поверхность жидкости будет равно атмосферному давлению. Если мы погружаемся в воду, то давление на некоторой глубине тоже будет состоять из двух давлений – давления атмосферы и давления столба воды (которое определяется глубиной погружения)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

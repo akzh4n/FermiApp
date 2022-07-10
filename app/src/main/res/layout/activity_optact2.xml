@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.optica.optact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Интерференция"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИНТЕРФЕРЕНЦИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- одно из ярких проявлений волновой природы света. Оно связано с перераспределением световой энергии в пространстве при наложении так называемых когерентных волн, то есть волн, имеющих одинаковые частоты и постоянную разность фаз. Интенсивность света в области перекрытия пучков имеет характер чередующихся светлых и темных полос, причем в максимумах интенсивность больше, а в минимумах меньше суммы интенсивностей пучков. При использовании белого света интерференционные полосы оказываются окрашенными в различные цвета спектра."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext40"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Для расчета интерференции используется понятие оптической длины пути. Пусть свет прошел расстояние L в среде с показанием преломления n. Тогда его оптическая длина пути рассчитывается по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="600dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext41"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Для интерференции необходимо наложение хотя бы двух лучей. Для них вычисляется оптическая разность хода (разность оптических длин) по следующей формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="800dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Интерференционный максимум"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext42"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="980dp"
+                android:fontFamily="@font/athiti"
+                android:text="- светлая полоса наблюдается в тех точках пространства, в которых выполняется следующее условие:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="1070dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext43"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1180dp"
+                android:fontFamily="@font/athiti"
+                android:text="Разность фаз колебаний при этом составляет:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="1220dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Интерференционный минимум"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext44"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1380dp"
+                android:fontFamily="@font/athiti"
+                android:text="- темная полоса наблюдается при выполнении следующего условия:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="1450dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext45"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Разность фаз колебаний при этом составляет:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="1600dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/inter6"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

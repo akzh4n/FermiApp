@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.optica.optact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Геометрическая оптика"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОНЫ ГЕОМЕТРИЧЕСКОЙ ОПТИКИ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это раздел физики, в котором не учитываются волновые свойства света. Основные законы геометрической оптики были известны задолго до установления физической природы света."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext49"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это среда, во всем объеме которой показатель преломления остаётся неизменным."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext51"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="780dp"
+                android:fontFamily="@font/athiti"
+                android:text="- падающий и отраженный лучи, а также перпендикуляр к границе раздела двух сред, восстановленный в точке падения луча, лежат в одной плоскости (плоскость падения). Угол отражения γ равен углу падения α. Заметьте, что все углы в оптике измеряются от перпендикуляра к границе раздела двух сред."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Оптически однородная среда"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext50"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="380dp"
+                android:fontFamily="@font/athiti"
+                android:text="- в оптически однородной среде свет распространяется прямолинейно. Этот закон приводит к представлению о световом луче как о геометрической линии, вдоль которой распространяется свет. Следует отметить, что закон прямолинейного распространения света нарушается и понятие светового луча утрачивает смысл, если свет проходит через малые отверстия, размеры которых сравнимы с длиной волны (в этом случае наблюдается дифракция). На границе раздела двух прозрачных сред свет может частично отразиться так, что часть световой энергии будет распространяться после отражения по новому направлению, а частично пройти через границу и распространяться во второй среде."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон прямолинейного распространения света:"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="750dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон отражения света"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон преломления света"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext52"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="980dp"
+                android:fontFamily="@font/athiti"
+                android:text="- падающий и преломленный лучи, а также перпендикуляр к границе раздела двух сред, восстановленный в точке падения луча, лежат в одной плоскости. Отношение синуса угла падения α к синусу угла преломления β есть величина, постоянная для двух данных сред, и определяется выражением:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1150dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/geoopt1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext53"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1280dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон преломления был экспериментально установлен голландским ученым В.Снеллиусом в 1621 году. Постоянную величину n21 называют относительным показателем преломления второй среды относительно первой. Показатель преломления среды относительно вакуума называют абсолютным показателем преломления."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext54"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Среду с большим значением абсолютного показателя называют оптически более плотной, а с меньшим – менее плотной. При переходе из менее плотной среды в более плотную луч «прижимается» к перпендикуляру, а при переходе из более плотной в менее плотную – «удаляется» от перпендикуляра. Единственный случай, когда луч не преломляется, это если угол падения равен 0 (то есть лучи перпендикулярны границе раздела сред). При переходе света из оптически более плотной среды в оптически менее плотную (например, из стекла в воздух) можно наблюдать явление полного внутреннего отражения, то есть исчезновение преломленного луча. Это явление наблюдается при углах падения, превышающих некоторый критический угол αпр, который называется предельным углом полного внутреннего отражения. Для угла падения α = αпр, sinβ = 1, так как β = 90°, это значит, что преломленный луч идет вдоль самой границы раздела, при этом, согласно закону Снеллиуса, выполняется следующее условие: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1980dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/geoopt2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext55"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Как только угол падения становиться больше предельного, то преломленный луч уже не просто идет вдоль границы, а он и вовсе не появляется, так как его синус теперь уж должен быть больше единицы, а такого не может быть."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

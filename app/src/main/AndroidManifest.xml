@@ -14,7 +14,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
-
+        <activity
+            android:name=".infomaterials.optica.optact5"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.optica.optact4"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.optica.optact3"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.optica.optact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.optica.optact1"
+            android:exported="false" />
         <activity
             android:name=".infomaterials.statics.statact7"
             android:exported="false" />

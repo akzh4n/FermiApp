@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.optica.optact3">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Дифракция"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ДИФРАКЦИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- света называется явление отклонения света от прямолинейного направления распространения при прохождении вблизи препятствий, размеры которых сопоставимы с длиной волны света (огибание светом препятствий). Как показывает опыт, свет при определенных условиях может заходить в область геометрической тени (то есть быть там, где его быть не должно). Если на пути параллельного светового пучка расположено круглое препятствие (круглый диск, шарик или круглое отверстие в непрозрачном экране), то на экране, расположенном на достаточно большом расстоянии от препятствия, появляется дифракционная картина – система чередующихся светлых и темных колец. Если препятствие имеет линейный характер (щель, нить, край экрана), то на экране возникает система параллельных дифракционных полос."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Дифракционные решетки"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="580dp"
+                android:fontFamily="@font/athiti"
+                android:text="- представляют собой периодические структуры, выгравированные специальной делительной машиной на поверхности стеклянной или металлической пластинки. У хороших решеток параллельные друг другу штрихи имеют длину порядка 10 см, а на каждый миллиметр приходится до 2000 штрихов. При этом общая длина решетки достигает 10–15 см. Изготовление таких решеток требует применения самых высоких технологий. На практике применяются также и более грубые решетки с 50–100 штрихами на миллиметр, нанесенными на поверхность прозрачной пленки."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext47"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="880dp"
+                android:fontFamily="@font/athiti"
+                android:text="При нормальном падении света на дифракционную решетку в некоторых направлениях (помимо того, в котором изначально падал свет) наблюдаются максимумы. Для того, чтобы наблюдался интерференционный максимум, должно выполняться следующее условие:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1050dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/dift1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext48"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1150dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: d – период (или постоянная) решетки (расстояние между соседними штрихами), m – целое число, которое называется порядком дифракционного максимума. В тех точках экрана, для которых это условие выполнено, располагаются так называемые главные максимумы дифракционной картины."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

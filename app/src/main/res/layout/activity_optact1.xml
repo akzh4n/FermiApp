@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.optica.optact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свет"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="СВЕТОВЫЕ ВОЛНЫ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- это электромагнитные волны, длины волн которых лежат для среднего глаза человека в пределах от 400 до 760 нм. В этих пределах свет называется видимым. Свет с наибольшей длиной волны кажется нам красным, а с наименьшей – фиолетовым. Запомнить чередование цветов спектра легко с помощью поговорки «Каждый Охотник Желает Знать, Где Сидит Фазан». Первые буквы слов поговорки соответствуют первым буквам основных цветов спектра в порядке убывания длины волны (и соответственно возрастания частоты): «Красный – Оранжевый – Желтый – Зеленый – Голубой – Синий – Фиолетовый». Свет с большими, чем у красного, длинами волн, называется инфракрасным. Его наш глаз не замечает, но наша кожа фиксирует такие волны в виде теплового излучения. Свет с меньшими, чем у фиолетового, длинами волн, называется ультрафиолетовым. Электромагнитные волны (и, в частности, световые волны, или просто свет) – это распространяющееся в пространстве и во времени электромагнитное поле. Электромагнитные волны поперечны – векторы электрической напряженности и магнитной индукции перпендикулярны друг другу и лежат в плоскости, перпендикулярной направлению распространения волны. Световые волны, как и любые другие электромагнитные волны, распространяются в веществе с конечной скоростью, которая может быть рассчитана по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="820dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/svet1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext36"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="920dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: ε и μ – диэлектрическая и магнитная проницаемости вещества, ε0 и μ0 – электрическая и магнитная постоянные: ε0 = 8,85419·10–12 Ф/м, μ0 = 1,25664·10–6 Гн/м. Скорость света в вакууме (где ε = μ = 1) постоянна и равна с = 3∙108 м/с, она также может быть вычислена по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1070dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/svet2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext37"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1180dp"
+                android:fontFamily="@font/athiti"
+                android:text="Скорость света в вакууме является одной из фундаментальных физических постоянных. Если свет распространяется в какой-либо среде, то скорость его распространения также выражается следующим соотношением: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1310dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/svet3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext38"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1430dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: n – показатель преломления вещества – физическая величина, показывающая во сколько раз скорость света в среде меньше чем в вакууме."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext39"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Кроме света существуют и другие виды электромагнитных волн. Далее они перечислены по уменьшению длины волны (и соответственно, по возрастанию частоты):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1650dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Радиоволны"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1680dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Инфракрасное излучение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1710dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Видимый свет"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1740dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Ультрафиолетовое излучение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1770dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Рентгеновское излучение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1800dp"
+                android:fontFamily="@font/athiti"
+                android:text="- Гамма-излучение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

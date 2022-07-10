@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.optica.optact5">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Линзы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЛИНЗЫ"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/syundertext"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- линзой называется прозрачное тело, ограниченное двумя сферическими поверхностями. Если толщина самой линзы мала по сравнению с радиусами кривизны сферических поверхностей, то линзу называют тонкой. Линзы бывают собирающими и рассеивающими. Если показатель преломления линзы больше, чем окружающей среды, то собирающая линза в середине толще, чем у краев, рассеивающая линза, наоборот, в средней части тоньше. Если показатель преломления линзы меньше, чем окружающей среды, то всё наоборот. Прямая, проходящая через центры кривизны сферических поверхностей, называется главной оптической осью линзы. В случае тонких линз можно приближенно считать, что главная оптическая ось пересекается с линзой в одной точке, которую принято называть оптическим центром линзы. Луч света проходит через оптический центр линзы, не отклоняясь от первоначального направления. Все прямые, проходящие через оптический центр, называются побочными оптическими осями. Если на линзу направить пучок лучей, параллельных главной оптической оси, то после прохождения через линзу лучи (или их продолжения) соберутся в одной точке F, которая называется главным фокусом линзы. У тонкой линзы имеются два главных фокуса, симметрично расположенных относительно линзы на главной оптической оси. У собирающих линз фокусы действительные, у рассеивающих – мнимые. Расстояние между оптическим центром линзы O и главным фокусом F называется фокусным расстоянием. Оно обозначается той же буквой F."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Правила построения хода луча в линзах"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="390dp"
+                android:layout_height="700dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/linz1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Формула линзы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext56"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1730dp"
+                android:fontFamily="@font/athiti"
+                android:text="- основное свойство линз – способность давать изображения предметов. Изображение – это точка пространства, где пересекаются лучи (или их продолжения), испущенные источником после преломления в линзе. Изображения бывают прямыми и перевернутыми, действительными (пересекаются сами лучи) и мнимыми (пересекаются продолжения лучей), увеличенными и уменьшенными. Положение изображения и его характер можно определить с помощью геометрических построений. Для этого используют свойства некоторых стандартных лучей, ход которых известен. Это лучи, проходящие через оптический центр или один из фокусов линзы, а также лучи, параллельные главной или одной из побочных оптических осей."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Формула тонкой линзы:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext57"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2130dp"
+                android:fontFamily="@font/athiti"
+                android:text="- изображения можно также рассчитать с помощью формулы тонкой линзы. Если кратчайшее расстояние от предмета до линзы обозначить через d, а кратчайшее расстояние от линзы до изображения через f, то формулу тонкой линзы можно записать в виде:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="2300dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/linz2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext58"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Величину D, обратную фокусному расстоянию. называют оптической силой линзы. Единица измерения оптической силы является 1 диоптрия (дптр). Диоптрия – оптическая сила линзы с фокусным расстоянием 1 м."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Линейным увеличением линзы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext59"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2580dp"
+                android:fontFamily="@font/athiti"
+                android:text="- в зависимости от положения предмета по отношению к линзе изменяются линейные размеры изображения. Линейным увеличением линзы Γ называют отношение линейных размеров изображения и предмета. Для линейного увеличения линзы существует формула:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="2750dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/linz3"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

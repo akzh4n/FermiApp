@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact10">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сопротивление проводника"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="СОПРОТИВЛЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- при прохождении тока по проводнику ток испытывает сопротивление со стороны проводника. Причина сопротивления – взаимодействие зарядов с атомами вещества проводника и между собой. Единица измерения сопротивления 1 Ом. Сопротивление проводника R определяется по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sopr1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext98"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="460dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: l – длина проводника, S – площадь его поперечного сечения, ρ – удельное сопротивление материала проводника (будьте внимательны и не перепутайте последнюю величину с плотностью вещества), которое характеризует способность материала проводника противодействовать прохождению тока. То есть это такая же характеристика вещества, как и многие другие: удельная теплоемкость, плотность, температура плавления и т.д. Единица измерения удельного сопротивления 1 Ом·м. Удельное сопротивление вещества – табличная величина."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="780dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сопротивление с температурой"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView72"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="830dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sopr2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext100"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="970dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: R0 – сопротивление проводника при 0°С, t – температура, выраженная в градусах Цельсия, α – температурный коэффициент сопротивления. Он равен относительному изменению сопротивления, при увеличении температуры на 1°С. Для металлов он всегда больше нуля, для электролитов наоборот, всегда меньше нуля. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

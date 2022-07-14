@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact14">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭДС И ЗАКОН ОМА ДЛЯ ПОЛНОЙ ЦЕПИ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Для существования постоянного тока необходимо наличие в электрической замкнутой цепи устройства, способного создавать и поддерживать разности потенциалов на участках цепи за счет работы сил неэлектростатического происхождения. Такие устройства называются источниками постоянного тока. Силы неэлектростатического происхождения, действующие на свободные носители заряда со стороны источников тока, называются сторонними силами."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext101"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Природа сторонних сил может быть различной. В гальванических элементах или аккумуляторах они возникают в результате электрохимических процессов, в генераторах постоянного тока сторонние силы возникают при движении проводников в магнитном поле. Под действием сторонних сил электрические заряды движутся внутри источника тока против сил электростатического поля, благодаря чему в замкнутой цепи может поддерживаться постоянный электрический ток."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext102"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="@font/athiti"
+                android:text="При перемещении электрических зарядов по цепи постоянного тока сторонние силы, действующие внутри источников тока, совершают работу. Физическая величина, равная отношению работы Aст сторонних сил при перемещении заряда q от отрицательного полюса источника тока к положительному к величине этого заряда, называется электродвижущей силой источника (ЭДС):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭДС:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/eds1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Ома для полной (замкнутой) цепи"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext103"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1080dp"
+                android:fontFamily="@font/athiti"
+                android:text="- сила тока в замкнутой цепи равна электродвижущей силе источника, деленной на общее (внутреннее + внешнее) сопротивление цепи:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1150dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/eds2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext104"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1300dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сопротивление r – внутреннее (собственное) сопротивление источника тока (зависит от внутреннего строения источника). Сопротивление R – сопротивление нагрузки (внешнее сопротивление цепи)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Ток короткого замыкания"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext105"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1480dp"
+                android:fontFamily="@font/athiti"
+                android:text="- если сопротивление нагрузки равно нулю (источник замыкается сам на себя) или много меньше сопротивления источника, то тогда в цепи потечет ток короткого замыкания:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="1570dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/eds3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext106"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1720dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сила тока короткого замыкания – максимальная сила тока, которую можно получить от данного источника с электродвижущей силой ε и внутренним сопротивлением r. У источников с малым внутренним сопротивлением ток короткого замыкания может быть очень велик, и вызывать разрушение электрической цепи или источника. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электрический заряд"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭЛЕКТРИЧЕСКИЙ ЗАРЯД"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="– это физическая величина, характеризующая способность частиц или тел вступать в электромагнитные взаимодействия. Электрический заряд обычно обозначается буквами q или Q. В системе СИ электрический заряд измеряется в Кулонах (Кл). Свободный заряд в 1 Кл – это гигантская величина заряда, практически не встречающаяся в природе. Как правило, Вам придется иметь дело с микрокулонами (1 мкКл = 10–6 Кл), нанокулонами (1 нКл = 10–9 Кл) и пикокулонами (1 пКл = 10–12 Кл). "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="430dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zaryad1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Элементарный заряд:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="530dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zaryad2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext77"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: N – целое число. Обратите внимание, невозможно существование заряда, равного 0,5е; 1,7е; 22,7е и так далее. Физические величины, которые могут принимать только дискретный (не непрерывный) ряд значений, называются квантованными. Элементарный заряд e является квантом (наименьшей порцией) электрического заряда."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="830dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон сохранения электрического заряда:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="880dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/zaryad3"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

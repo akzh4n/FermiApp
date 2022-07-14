@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact6">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПОТЕНЦИАЛЫ И НАПРЯЖЕНИЕ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электростатическое поле обладает важным свойством: работа сил электростатического поля при перемещении заряда из одной точки поля в другую не зависит от формы траектории, а определяется только положением начальной и конечной точек и величиной заряда."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext84"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Следствием независимости работы от формы траектории является следующее утверждение: работа сил электростатического поля при перемещении заряда по любой замкнутой траектории равна нулю."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext85"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свойство потенциальности (независимости работы от формы траектории) электростатического поля позволяет ввести понятие потенциальной энергии заряда в электрическом поле. А физическую величину, равную отношению потенциальной энергии электрического заряда в электростатическом поле к величине этого заряда, называют потенциалом φ электрического поля:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="570dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/potn1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext86"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Потенциал φ является энергетической характеристикой электростатического поля. В Международной системе единиц (СИ) единицей потенциала (а значит и разности потенциалов, т.е. напряжения) является вольт [В]. Потенциал - скалярная величина."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="850dp"
+                android:fontFamily="@font/athiti"
+                android:text="Потенциал точечного заряда"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext87"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="880dp"
+                android:fontFamily="@font/athiti"
+                android:text="Вспомнив формулу для потенциальной энергии взаимодействия двух точечных зарядов и разделив ее на величину одного из зарядов в соответствии с определением потенциала получим, что потенциал φ поля точечного заряда Q на расстоянии r от него относительно бесконечно удаленной точки вычисляется следующим образом:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1080dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/potn2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1200dp"
+                android:fontFamily="@font/athiti"
+                android:text="Напряжение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext88"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1230dp"
+                android:fontFamily="@font/athiti"
+                android:text="- электрическое напряжение это просто разность потенциалов, т.е. определение электрического напряжения может быть задано формулой:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1330dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/potn3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext89"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="В однородном электрическом поле существует связь между напряженностью поля и напряжением:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1520dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/potn4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext90"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1660dp"
+                android:fontFamily="@font/athiti"
+                android:text="- может быть вычислена как разность начальной и конечной потенциальной энергии системы зарядов:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1630dp"
+                android:fontFamily="@font/athiti"
+                android:text="Работа электрического тока"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="1730dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/potn5"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

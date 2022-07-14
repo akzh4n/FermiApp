@@ -15,6 +15,75 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
         <activity
+            android:name=".infomaterials.electricity.elact16"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact15"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact14"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact13"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact12"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact11"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact10"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact9"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact8"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact7"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact6"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact5"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact4"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact3"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.electricity.elact1"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact7"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact6"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact5"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact4"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact3"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.quantum.quantact1"
+            android:exported="false" />
+        <activity
             android:name=".infomaterials.optica.optact5"
             android:exported="false" />
         <activity

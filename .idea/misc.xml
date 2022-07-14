@@ -73,7 +73,23 @@
         <entry key="app/src/main/res/layout/activity_dynamic8.xml" value="0.2696818033854167" />
         <entry key="app/src/main/res/layout/activity_dynamics.xml" value="0.15614471435546876" />
         <entry key="app/src/main/res/layout/activity_editprofile.xml" value="0.17094879150390624" />
-        <entry key="app/src/main/res/layout/activity_electricity.xml" value="0.22484436035156252" />
+        <entry key="app/src/main/res/layout/activity_elact1.xml" value="0.3216216216216216" />
+        <entry key="app/src/main/res/layout/activity_elact10.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact11.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact12.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact13.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact14.xml" value="0.3328098684117414" />
+        <entry key="app/src/main/res/layout/activity_elact15.xml" value="0.20606884057971014" />
+        <entry key="app/src/main/res/layout/activity_elact16.xml" value="0.38436692506459946" />
+        <entry key="app/src/main/res/layout/activity_elact2.xml" value="0.2729335144200682" />
+        <entry key="app/src/main/res/layout/activity_elact3.xml" value="0.17868760377553697" />
+        <entry key="app/src/main/res/layout/activity_elact4.xml" value="0.1704681396484375" />
+        <entry key="app/src/main/res/layout/activity_elact5.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact6.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact7.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_elact8.xml" value="0.39991455078125004" />
+        <entry key="app/src/main/res/layout/activity_elact9.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_electricity.xml" value="0.48124694824218756" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.2638979311342593" />
         <entry key="app/src/main/res/layout/activity_kinemact1.xml" value="0.2625930786132813" />
         <entry key="app/src/main/res/layout/activity_kinemact2.xml" value="0.5641398429009111" />
@@ -96,7 +112,14 @@
         <entry key="app/src/main/res/layout/activity_optact5.xml" value="0.3140380859375" />
         <entry key="app/src/main/res/layout/activity_optica.xml" value="0.2610087393852861" />
         <entry key="app/src/main/res/layout/activity_practice.xml" value="0.22397592803578323" />
-        <entry key="app/src/main/res/layout/activity_quantum.xml" value="0.1171875" />
+        <entry key="app/src/main/res/layout/activity_quantact1.xml" value="0.3319569905598958" />
+        <entry key="app/src/main/res/layout/activity_quantact2.xml" value="0.27147569984952263" />
+        <entry key="app/src/main/res/layout/activity_quantact3.xml" value="0.3816549069916613" />
+        <entry key="app/src/main/res/layout/activity_quantact4.xml" value="0.6027511596679688" />
+        <entry key="app/src/main/res/layout/activity_quantact5.xml" value="0.5957412719726562" />
+        <entry key="app/src/main/res/layout/activity_quantact6.xml" value="0.38371734619140624" />
+        <entry key="app/src/main/res/layout/activity_quantact7.xml" value="0.35546875" />
+        <entry key="app/src/main/res/layout/activity_quantum.xml" value="0.4708740234375" />
         <entry key="app/src/main/res/layout/activity_quiz_mech.xml" value="0.258111572265625" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18100280761718754" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.21452178955078127" />

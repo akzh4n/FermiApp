@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.quantum.quantact3">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Фотоэлектрический эффект"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ФОТОЭФФЕКТ"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Задерживающее напряжение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- явление, заключающееся в появлении фототока в вакуумном баллоне при освещении катода монохроматическим светом некоторой длины волны λ."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext60"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="280dp"
+                android:fontFamily="@font/athiti"
+                android:text="- когда напряжение на аноде отрицательно, электрическое поле между катодом и анодом тормозит электроны. Измеряя данное задерживающее напряжение при котором исчезает фототок, можно определить максимальную кинетическую энергию фотоэлектронов вырываемых из катода: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="470dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/foto1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext62"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/athiti"
+                android:text="Многочисленными экспериментаторами были установлены следующие основные закономерности фотоэффекта:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext63"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="690dp"
+                android:fontFamily="@font/athiti"
+                android:text="Фотоэффект безынерционен. Это значит, что электроны начинают вылетать из металла сразу же после начала облучения светом. Максимальная кинетическая энергия фотоэлектронов линейно возрастает с увеличением частоты света ν и не зависит от его интенсивности. Для каждого вещества существует так называемая красная граница фотоэффекта, то есть наименьшая частота νmin (или наибольшая длина волны λmax) при которой еще возможен внешний фотоэффект. Число фотоэлектронов, вырываемых светом из катода за 1 с, прямо пропорционально интенсивности света."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext66"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1000dp"
+                android:fontFamily="@font/athiti"
+                android:text="При взаимодействии с веществом фотон целиком передает всю свою энергию E = hν одному электрону. Часть этой энергии электрон может рассеять при столкновениях с атомами вещества. Кроме того, часть энергии электрона затрачивается на преодоление потенциального барьера на границе металл–вакуум. Для этого электрон должен совершить работу выхода Aвых, зависящую от свойств материала катода. Наибольшая кинетическая энергия, которую может иметь вылетевший из катода фотоэлектрон, в таком случае, определяется законом сохранения энергии: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1300dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/foto2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Уравнение Эйнштейна"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext64"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1480dp"
+                android:fontFamily="@font/athiti"
+                android:text="- эту формулу принято называть уравнением Эйнштейна для внешнего фотоэффекта. С помощью уравнения Эйнштейна можно объяснить все закономерности внешнего фотоэффекта. Для красной границы фотоэффекта, согласно формуле Эйнштейна, можно получить выражение:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1650dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/foto3"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

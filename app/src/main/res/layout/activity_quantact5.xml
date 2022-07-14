@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.quantum.quantact5">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="АТОМНОЕ ЯДРО"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="В настоящее время твердо установлено, что атомные ядра различных элементов состоят из двух частиц – протонов и нейтронов, которые принято называть нуклонами. Для характеристики атомных ядер вводится ряд обозначений. Число протонов, входящих в состав атомного ядра, обозначают символом Z и называют зарядовым числом или атомным номером (это порядковый номер в периодической таблице Менделеева). Число нейтронов обозначают символом N. Общее число нуклонов (то есть протонов и нейтронов) называют массовым числом A, для которого можно записать следующую формулу:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView47"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/yadro1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергия связи. Дефект массы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext67"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="530dp"
+                android:fontFamily="@font/athiti"
+                android:text="Важнейшую роль в ядерной физике играет понятие энергии связи ядра. Энергия связи ядра равна минимальной энергии, которую необходимо затратить для полного расщепления ядра на отдельные частицы. Из закона сохранения энергии следует, что энергия связи равна той энергии, которая выделяется при образовании ядра из отдельных частиц."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext68"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="720dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергию связи любого ядра можно определить с помощью точного измерения его массы. Такие измерения показывают, что масса любого ядра Mя всегда меньше суммы масс входящих в его состав протонов и нейтронов: Mя меньше чем Zmp + Nmn. При этом разность этих масс называется дефектом масс, и вычисляется по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView48"
+                android:layout_width="230dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="900dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/yadro2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext69"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1070dp"
+                android:fontFamily="@font/athiti"
+                android:text="По дефекту массы можно определить с помощью формулы Эйнштейна E = mc2 энергию, выделившуюся при образовании данного ядра, то есть энергию связи ядра Eсв:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView49"
+                android:layout_width="270dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="1150dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/yadro3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext70"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1320dp"
+                android:fontFamily="@font/athiti"
+                android:text="Но удобнее рассчитывать энергию связи по другой формуле (здесь массы берутся в атомных единицах, а энергия связи получается в МэВ):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1400dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/yadro4"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

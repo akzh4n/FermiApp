@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.quantum.quantact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ГИПОТЕЗА ПЛАНКА "
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свет"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text=" Планк предположил, что энергия света дискретна, а одна порция энергии пропорциональна частоте света. Он это сделал при решении задачи о тепловом излучении."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext60"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/athiti"
+                android:text="– это поток квантов электромагнитного излучения, называемых фотонами. Фотон – это частица, переносящая энергию света. Он не может находиться в покое, а всегда движется со скоростью, равной скорости света. Фотон обладает следующими характеристиками:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext61"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: h = 6,63∙10–34 Дж∙с = 4,14∙10–15 эВ∙с – постоянная Планка, ν – частота света, λ – длина волны света, c – скорость света в вакууме. Энергия фотона в Джоулях очень мала, поэтому для математического удобства ее часто измеряют во внесистемной единице – электрон-вольтах:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="380dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергия фотонов равна:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="430dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/plank1"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="700dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/plank4"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/plank2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="810dp"
+                android:fontFamily="@font/athiti"
+                android:text="Фотон обладает импульсом:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext63"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="960dp"
+                android:fontFamily="@font/athiti"
+                android:text="Фотон не обладает массой в привычном для нас смысле (той массой, которую можно измерить на весах, рассчитать по второму закону Ньютона и так далее), но в соответствии с теорией относительности Эйнштейна, обладает массой как мерой энергии (E = mc2). Действительно, любое тело, имеющее некоторую энергию, имеет и массу. Если учесть, что фотон обладает энергией, то он обладает и массой, которую можно найти как:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1200dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/plank3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Фотон не обладает электрическим зарядом"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext64"
+                android:layout_width="375dp"
+                android:layout_height="230dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1410dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свет обладает двойственной природой. При распространении света проявляются его волновые свойства (интерференция, дифракция, поляризация), а при взаимодействии с веществом – корпускулярные (фотоэффект). Эта двойственная природа света получила название корпускулярно-волнового дуализма."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

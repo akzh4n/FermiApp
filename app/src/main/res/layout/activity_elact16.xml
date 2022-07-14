@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact16">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электролит"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭЛЕКТРОЛИЗ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- принято называть проводящие среды, в которых протекание электрического тока сопровождается переносом вещества. Носителями свободных зарядов в электролитах являются положительно и отрицательно заряженные ионы. К электролитам относятся многие соединения металлов с металлоидами в расплавленном состоянии, а также некоторые твердые вещества. Однако основными представителями электролитов, широко используемыми в технике, являются водные растворы неорганических кислот, солей и оснований. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext109"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Прохождение электрического тока через электролит сопровождается выделением вещества на электродах. Это явление получило название электролиза."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext110"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электрический ток в электролитах представляет собой перемещение ионов обоих знаков в противоположных направлениях. Положительные ионы движутся к отрицательному электроду (катоду), отрицательные ионы – к положительному электроду (аноду). Ионы обоих знаков появляются в водных растворах солей, кислот и щелочей в результате расщепления части нейтральных молекул. Это явление называется электролитической диссоциацией."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="750dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон электролиза"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext111"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="780dp"
+                android:fontFamily="@font/athiti"
+                android:text="- был экспериментально установлен английским физиком М.Фарадеем в 1833 году. Закон Фарадея определяет количества первичных продуктов, выделяющихся на электродах при электролизе. Итак, масса m вещества, выделившегося на электроде, прямо пропорциональна заряду Q, прошедшему через электролит:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/loz1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1070dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электрохимический эквивалент:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="1130dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/loz2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext112"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1250dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: n – валентность вещества, NA – постоянная Авогадро, M – молярная масса вещества, е – элементарный заряд."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

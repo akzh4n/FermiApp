@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.quantum.quantact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="СТО базируется на двух постулатах:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ОСНОВЫ СТО"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/athiti"
+                android:text="Принцип относительности:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/athiti"
+                android:text="Принцип постоянства скорости света:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="180dp"
+                android:fontFamily="@font/athiti"
+                android:text="- в любых инерциальных системах отсчета все физические явления при одних и тех же исходных условиях протекают одинаково, т.е. никакими опытами, проведенными в замкнутой системе тел, нельзя обнаружить покоится ли тело или движется равномерно и прямолинейно."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext60"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="360dp"
+                android:fontFamily="@font/athiti"
+                android:text="- во всех инерциальных системах отсчета скорость света в вакууме одинакова и не зависит от скорости движущегося источника света."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext61"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/athiti"
+                android:text="- длина тела в системе отсчета, где оно покоится, называется собственной длиной L0. Тогда длина тела движущегося со скоростью V в инерциальной системе отсчета уменьшается в направлении движения до длины:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Релятивистское сокращение длины"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="630dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sto1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext62"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="750dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: c – скорость света в вакууме, L0 – длина тела в неподвижной системе отсчета (длина покоящегося тела), L – длина тела в системе отсчета, движущейся со скоростью V (длина тела, движущегося со скоростью V). Таким образом, длина тела является относительной. Сокращение тел заметно, только при скоростях, сопоставимых со скоростью света."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="930dp"
+                android:fontFamily="@font/athiti"
+                android:text="Релятивистское сокращение длины"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext63"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="960dp"
+                android:fontFamily="@font/athiti"
+                android:text="- длительность явления, происходящего в некоторой точке пространства, будет наименьшей в той инерциальной системе отсчета, относительно которой эта точка неподвижна. Это означает, что часы, движущиеся относительно инерциальной системы отсчета, идут медленнее неподвижных часов и показывают больший промежуток времени между событиями. Релятивистское замедление времени становится заметным лишь при скоростях сопоставимых со скоростью света, и выражается формулой:Длительность явления, происходящего в некоторой точке пространства, будет наименьшей в той инерциальной системе отсчета, относительно которой эта точка неподвижна. Это означает, что часы, движущиеся относительно инерциальной системы отсчета, идут медленнее неподвижных часов и показывают больший промежуток времени между событиями. Релятивистское замедление времени становится заметным лишь при скоростях сопоставимых со скоростью света, и выражается формулой:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1500dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sto2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1630dp"
+                android:fontFamily="@font/athiti"
+                android:text="Релятивистское сокращение длины"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext64"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1660dp"
+                android:fontFamily="@font/athiti"
+                android:text="- закон сложения скоростей в механике Ньютона противоречит постулатам СТО и заменяется новым релятивистским законом сложения скоростей. Если два тела движутся навстречу друг другу, то их скорость сближения выражается формулой:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1800dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sto3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1930dp"
+                android:fontFamily="@font/athiti"
+                android:text="Релятивистское увеличение массы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="2000dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sto5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2130dp"
+                android:fontFamily="@font/athiti"
+                android:text="Связь энергии и массы тела"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext65"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2160dp"
+                android:fontFamily="@font/athiti"
+                android:text="- c точки зрения теории относительности масса тела и энергия тела – это практически одно и то же. Таким образом, только факт существования тела означает, что у тела есть энергия. Наименьшей энергией Е0 тело обладает в инерциальной системе отсчета относительно которой оно покоится и называется собственной энергией тела (энергия покоя тела):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView44"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="2360dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sto6"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Точечный заряд:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЗАКОН КУЛОНА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- называют заряженное тело, размерами которого в условиях данной задачи можно пренебречь. На основании многочисленных опытов Кулон установил следующий закон:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext76"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Силы взаимодействия неподвижных точечных зарядов прямо пропорциональны произведению модулей зарядов и обратно пропорциональны квадрату расстояния между ними:"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="360dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kulon1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext77"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: ε – диэлектрическая проницаемость среды – безразмерная физическая величина, показывающая, во сколько раз сила электростатического взаимодействия в данной среде будет меньше, чем в вакууме (то есть во сколько раз среда ослабляет взаимодействие). Здесь k – коэффициент в законе Кулона, величина, определяющая численное значение силы взаимодействия зарядов. В системе СИ его значение принимается равным:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="700dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kulon4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext78"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Силы взаимодействия точечных неподвижных зарядов подчиняются третьему закону Ньютона, и являются силами отталкивания друг от друга при одинаковых знаках зарядов и силами притяжения друг к другу при разных знаках. Взаимодействие неподвижных электрических зарядов называют электростатическим или кулоновским взаимодействием. Раздел электродинамики, изучающий кулоновское взаимодействие, называют электростатикой."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext79"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1070dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Кулона справедлив для точечных заряженных тел, равномерно заряженных сфер и шаров. В этом случае за расстояния r берут расстояние между центрами сфер или шаров. На практике закон Кулона хорошо выполняется, если размеры заряженных тел много меньше расстояния между ними. Коэффициент k в системе СИ иногда записывают в виде:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1250dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kulon2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext80"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: ε0 = 8,85∙10–12 Ф/м – электрическая постоянная."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Проводники"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext81"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1430dp"
+                android:fontFamily="@font/athiti"
+                android:text="– вещества, содержащие свободные носители электрического заряда. Внутри проводника возможно свободное движение электронов – носителей заряда (по проводникам может протекать электрический ток). К проводникам относятся металлы, растворы и расплавы электролитов, ионизированные газы, плазма."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1600dp"
+                android:fontFamily="@font/athiti"
+                android:text="Диэлектрики"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kulon3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext82"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1630dp"
+                android:fontFamily="@font/athiti"
+                android:text="– вещества, в которых нет свободных носителей заряда. Свободное движение электронов внутри диэлектриков невозможно (по ним не может протекать электрический ток). Именно диэлектрики обладают некоторой не равной единице диэлектрической проницаемостью ε. Для диэлектрической проницаемости вещества верно следующее (о том, что такое электрическое поле чуть ниже):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.electricity.elact7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электрическая эмкость:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭЛЕКТРИЧЕСКАЯ ЭМКОСТЬ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="При сообщении проводнику заряда всегда существует некоторый предел, более которого зарядить тело не удастся. Для характеристики способности тела накапливать электрический заряд вводят понятие электрической емкости. Емкостью уединенного проводника называют отношение его заряда к потенциалу:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="330dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/emkost1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext91"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="В системе СИ емкость измеряется в Фарадах [Ф]. 1 Фарад – чрезвычайно большая емкость. Для сравнения, емкость всего земного шара значительно меньше одного фарада. Емкость проводника не зависит ни от его заряда, ни от потенциала тела. Аналогично, плотность не зависит ни от массы, ни от объема тела. Емкость зависит лишь от формы тела, его размеров и свойств окружающей его среды."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext92"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электроемкостью системы из двух проводников называется физическая величина, определяемая как отношение заряда q одного из проводников к разности потенциалов Δφ между ними:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="780dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/emkost2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Электроёмкость плоского конденсатора"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/emkost3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext93"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                android:fontFamily="@font/athiti"
+                android:text="Таким образом, электроемкость плоского конденсатора прямо пропорциональна площади пластин (обкладок) и обратно пропорциональна расстоянию между ними. Если пространство между обкладками заполнено диэлектриком, электроемкость конденсатора увеличивается в ε раз. Обратите внимание, что S в этой формуле есть площадь только одной обкладки конденсатора. Когда в задаче говорят о «площади обкладок», то имеют в виду именно эту величину. На 2 умножать или делить её не надо никогда."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Заряд конденсатора:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="1400dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/emkost4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергия конденсатора:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1550dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/emkost5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext94"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергия конденсатора. Ее же называют энергией электрического поля внутри конденсатора. Опыт показывает, что заряженный конденсатор содержит запас энергии. Энергия заряженного конденсатора равна работе внешних сил, которую необходимо затратить, чтобы зарядить конденсатор. Существует три эквивалентные формы записи формулы для энергии конденсатора (они следуют одна из другой если воспользоваться соотношением q = CU):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext95"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1880dp"
+                android:fontFamily="@font/athiti"
+                android:text="Особое внимание обращайте на фразу: «Конденсатор подключён к источнику». Это означает, что напряжение на конденсаторе не изменяется. А фраза «Конденсатор зарядили и отключили от источника» означает, что заряд конденсатора не изменится."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

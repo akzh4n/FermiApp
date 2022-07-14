@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.quantum.quantact6">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="РАДИОАКТИВНОСТЬ"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Почти 90% из известных атомных ядер нестабильны. Нестабильное ядро самопроизвольно превращается в другие ядра с испусканием частиц. Это свойство ядер называется радиоактивностью."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="210dp"
+                android:fontFamily="@font/athiti"
+                android:text="Альфа-распад"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext67"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="240dp"
+                android:fontFamily="@font/athiti"
+                android:text="Альфа-распадом называется самопроизвольное превращение атомного ядра с числом протонов Z и нейтронов N в другое (дочернее) ядро, содержащее число протонов Z – 2 и нейтронов N – 2. При этом испускается α-частица – ядро атома гелия 42He. Общая схема альфа-распада:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView46"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/radio1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="520dp"
+                android:fontFamily="@font/athiti"
+                android:text="Бета-распад"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext71"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="При бета-распаде из ядра вылетает электрон (0–1e). Схема бета-распада:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView51"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="570dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/radio2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="730dp"
+                android:fontFamily="@font/athiti"
+                android:text="Гамма-распад"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext72"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="760dp"
+                android:fontFamily="@font/athiti"
+                android:text="В отличие от α- и β-радиоактивности γ-радиоактивность ядер не связана с изменением внутренней структуры ядра и не сопровождается изменением зарядового или массового чисел. Как при α-, так и при β-распаде дочернее ядро может оказаться в некотором возбужденном состоянии и иметь избыток энергии. Переход ядра из возбужденного состояния в основное сопровождается испусканием одного или нескольких γ-квантов, энергия которых может достигать нескольких МэВ."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1030dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон радиоактивного распада:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext73"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1060dp"
+                android:fontFamily="@font/athiti"
+                android:text="- в любом образце радиоактивного вещества содержится огромное число радиоактивных атомов. Так как радиоактивный распад имеет случайный характер и не зависит от внешних условий, то закон убывания количества N(t) нераспавшихся к данному моменту времени t ядер может служить важной статистической характеристикой процесса радиоактивного распада. Закон радиоактивного распада имеет вид:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView52"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1250dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/radio3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext74"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Величина T называется периодом полураспада, N0 – начальное число радиоактивных ядер при t = 0. Период полураспада – основная величина, характеризующая скорость радиоактивного распада. Чем меньше период полураспада, тем интенсивнее протекает распад."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

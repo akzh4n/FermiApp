@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact9">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ГАРМОНИЧЕСКИЕ КОЛЕБАНИЯ"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="В технике и окружающем нас мире часто приходится сталкиваться с периодическими процессами, которые повторяются через одинаковые промежутки времени. Такие процессы называют колебательными."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext136"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/athiti"
+                android:text="- называют изменения физической величины, происходящие по определенному закону во времени. Колебательные явления различной физической природы подчиняются общим закономерностям. Например, колебания тока в электрической цепи и колебания математического маятника могут описываться одинаковыми уравнениями. Общность колебательных закономерностей позволяет рассматривать колебательные процессы различной природы с единой точки зрения."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="200dp"
+                android:fontFamily="@font/athiti"
+                android:text="Колебания"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Механические колебания"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext137"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="530dp"
+                android:fontFamily="@font/athiti"
+                android:text="- называют движения тел, повторяющиеся точно через одинаковые промежутки времени. Примерами простых колебательных систем могут служить груз на пружине или математический маятник. Для существования в системе гармонических колебаний необходимо, чтобы у нее было положение устойчивого равновесия, то есть такое положение, при выведении из которого на систему начала бы действовать возвращающая сила."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="750dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свободные колебания"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext138"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="780dp"
+                android:fontFamily="@font/athiti"
+                android:text="- совершаются под действием внутренних сил системы, после того, как система была выведена из состояния равновесия. Колебания груза на пружине или колебания маятника являются свободными колебаниями."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Вынужденные колебания"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext139"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="930dp"
+                android:fontFamily="@font/athiti"
+                android:text="- колебания, происходящие под действием внешних периодически изменяющихся сил."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1000dp"
+                android:fontFamily="@font/athiti"
+                android:text="Уравнение гармонических колебаний:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1050dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext140"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1150dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: x – смещение тела от положение равновесия, A – амплитуда колебаний, то есть максимальное смещение от положения равновесия, ω – циклическая или круговая частота колебаний (ω = 2Π/T), t – время."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1280dp"
+                android:fontFamily="@font/athiti"
+                android:text="Период"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView91"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1330dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext141"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="n - число колебаний, t - время"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Частота"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView92"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1550dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext142"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Частота колебаний ν показывает, сколько колебаний совершается за 1 с. Единица частоты – Герц (Гц). Частота колебаний связана с циклической частотой ω и периодом колебаний T соотношениями:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView93"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1750dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Максимальная скорость колебаний:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView94"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2050dp"
+                android:fontFamily="@font/athiti"
+                android:text="Максимальное ускорение колебаний:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView95"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="2100dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/garmo6"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

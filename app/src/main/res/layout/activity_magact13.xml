@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact13">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭЛЕКТРИЧЕСКИЙ КОНТУР"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="В электрических цепях, так же, как и в механических системах, таких как груз на пружине или маятник, могут возникать свободные колебания. Простейшей электрической системой, способной совершать свободные колебания, является последовательный LC-контур. В отсутствие затухания свободные колебания в электрическом контуре являются гармоническими. Энергетические характеристики и их взаимосвязь при колебаниях в электрическом контуре:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView100"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Период гармонических колебаний в электрическом колебательном контуре:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView101"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="550dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Циклическая частота колебаний в электрическом колебательном контуре: "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView102"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="750dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Зависимость заряда на конденсаторе от времени:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView103"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Максимальное значение силы токa:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView104"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1150dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1300dp"
+                android:fontFamily="@font/athiti"
+                android:text="Максимальное значение напряжения:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView105"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kontur6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext149"
+                android:layout_width="375dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Все реальные контура содержат электрическое сопротивление R. Процесс свободных колебаний в таком контуре уже не подчиняется гармоническому закону. За каждый период колебаний часть электромагнитной энергии, запасенной в контуре, превращается в теплоту, выделяющуюся на резисторе, и колебания становятся затухающими."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

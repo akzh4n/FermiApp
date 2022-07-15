@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact11">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПРУЖИННЫЙ МАЯТНИК"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Свободные колебания совершаются под действием внутренних сил системы после того, как система была выведена из положения равновесия. Для того, чтобы свободные колебания совершались по гармоническому закону, необходимо, чтобы сила, стремящаяся возвратить тело в положение равновесия, была пропорциональна смещению тела из положения равновесия и направлена в сторону, противоположную смещению. Таким свойством обладает сила упругости."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext144"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Таким образом, груз некоторой массы m, прикрепленный к пружине жесткости k, второй конец которой закреплен неподвижно, составляют систему, способную совершать в отсутствие трения свободные гармонические колебания. Груз на пружине называют пружинным маятником."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="550dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/pruzhin1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Циклическая частота маятника:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="@font/athiti"
+                android:text="Период колебаний пружинного маятника:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView97"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="750dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/pruzhin2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

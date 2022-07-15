@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/athiti"
+                android:gravity="center_horizontal"
+                android:text="ДВИЖЕНИЕ ПРОВОДНИКА В МАГНИТНОМ ПОЛЕ"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="При движении проводника длиной l в магнитном поле B со скоростью v на его концах возникает разность потенциалов, вызванная действием силы Лоренца на свободные электроны в проводнике. Эту разность потенциалов (строго говоря, ЭДС) находят по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="250dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/dvizhmag1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext130"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: α - угол, который измеряется между направлением скорости и вектора магнитной индукции. В неподвижных частях контура ЭДС не возникает."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext131"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если стержень длиной L вращается в магнитном поле В вокруг одного из своих концов с угловой скоростью ω, то на его концах возникнет разность потенциалов (ЭДС), которую можно рассчитать по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView87"
+                android:layout_width="150dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="600dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/dvizhmag2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

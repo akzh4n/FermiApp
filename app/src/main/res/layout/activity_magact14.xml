@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact14">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ПЕРЕМЕННЫЙ ТОК И ТРАНСФОРМАТОР"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Основная часть электроэнергии в мире в настоящее время вырабатывается генераторами переменного тока, создающими синусоидальное напряжение. Они позволяют наиболее просто и экономно осуществлять передачу, распределение и использование электрической энергии."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="270dp"
+                android:fontFamily="@font/athiti"
+                android:text="Генератор переменного тока"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext145"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/athiti"
+                android:text="Устройство, предназначенное для превращения механической энергии в энергию переменного тока, называется генератором переменного тока. Он характеризуется переменным напряжением U(t) (индуцированной ЭДС) на его клеммах. В основу работы генератора переменного тока положено явление электромагнитной индукции."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Переменный ток"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext150"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="530dp"
+                android:fontFamily="@font/athiti"
+                android:text="- называется электрический ток, который изменяется с течением времени по гармоническому закону. Величины U0, I0 = U0/R называются амплитудными значениями напряжения и силы тока. Значения напряжения U(t) и силы тока I(t), зависящие от времени, называют мгновенными."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext151"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Переменный ток характеризуется действующими значениями силы тока и напряжения. Действующим (эффективным) значением переменного тока называется сила такого постоянного тока, который, проходя по цепи, выделил бы в единицу времени такое же количество теплоты, что и данный переменный ток. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="Действующее значение силы тока"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView106"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="950dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/trans1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1050dp"
+                android:fontFamily="@font/athiti"
+                android:text="Действующее значение силы напряжение"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView107"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1100dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/trans2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Трансформатор"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext152"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1280dp"
+                android:fontFamily="@font/athiti"
+                android:text="Среди приборов переменного тока, нашедших широкое применение в технике, значительное место занимают трансформаторы. Принцип действия трансформаторов, применяемых для повышения или понижения напряжения переменного тока, основан на явлении электромагнитной индукции. Простейший трансформатор состоит из сердечника замкнутой формы, на который намотаны две обмотки: первичная и вторичная. Первичная обмотка подсоединяется к источнику переменного тока с некоторым напряжением U1, а вторичная обмотка подключается к нагрузке, на которой появляется напряжение U2. При этом, если число витков в первичной обмотке равно n1, а во вторичной n2, то выполняется следующее соотношение:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView108"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="1650dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/trans3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1780dp"
+                android:fontFamily="@font/athiti"
+                android:text="Коэффициент трансформации "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView109"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="1830dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/trans4"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

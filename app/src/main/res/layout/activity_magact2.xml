@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact2">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Вращательный момент силы Ампера"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="МОМЕНТ СИЛЫ ТОКА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Пусть рамка с током находится в магнитном поле, причём плоскость рамки перпендикулярна полю. Силы Ампера будут сжимать рамку, а их равнодействующая будет равна нулю. Если поменять направление тока, то силы Ампера поменяют своё направление, и рамка будет не сжиматься, а растягиваться. Если линии магнитной индукции лежат в плоскости рамки, то возникает вращательный момент сил Ампера. Вращательный момент сил Ампера равен:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="400dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/momentsil"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext116"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: S - площадь рамки, α - угол между нормалью к рамке и вектором магнитной индукции (нормаль - вектор, перпендикулярный плоскости рамки), N – количество витков, B – индукция магнитного поля, I – сила тока в рамке."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

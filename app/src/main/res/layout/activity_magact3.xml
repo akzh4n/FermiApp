@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact3">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сила Лоренца"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="СИЛА ЛОРЕНЦА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сила Ампера, действующая на отрезок проводника длиной Δl с силой тока I, находящийся в магнитном поле B может быть выражена через силы, действующие на отдельные носители заряда. Эти силы называют силами Лоренца. Сила Лоренца, действующая на частицу с зарядом q в магнитном поле B, двигающуюся со скоростью v, вычисляется по следующей формуле: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/loren1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext117"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Угол α в этом выражении равен углу между скоростью и вектором магнитной индукции. Направление силы Лоренца, действующей на положительно заряженную частицу, так же, как и направление силы Ампера, может быть найдено по правилу левой руки или по правилу буравчика (как и сила Ампера). Вектор магнитной индукции нужно мысленно воткнуть в ладонь левой руки, четыре сомкнутых пальца направить по скорости движения заряженной частицы, а отогнутый большой палец покажет направление силы Лоренца. Если частица имеет отрицательный заряд, то направление силы Лоренца, найденное по правилу левой руки, надо будет заменить на противоположное."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Радиус окружности "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView79"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/loren2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Период обращения частицы"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView80"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="1000dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/loren3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext118"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Последнее выражение показывает, что для заряженных частиц заданной массы m период обращения (а значит и частота, и угловая скорость) не зависит от скорости (следовательно, и от кинетической энергии) и радиуса траектории R."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

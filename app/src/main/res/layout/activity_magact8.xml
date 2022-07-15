@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact8">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Самоиндукция"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИНДУКТИВНОСТЬ И САМОИНДУКЦИЯ"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- является важным частным случаем электромагнитной индукции, когда изменяющийся магнитный поток, вызывающий ЭДС индукции, создается током в самом контуре. Если ток в рассматриваемом контуре по каким-то причинам изменяется, то изменяется и магнитное поле этого тока, а, следовательно, и собственный магнитный поток, пронизывающий контур. В контуре возникает ЭДС самоиндукции, которая согласно правилу Ленца препятствует изменению тока в контуре. Собственный магнитный поток Φ, пронизывающий контур или катушку с током, пропорционален силе тока I:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="450dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sam1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext132"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="Коэффициент пропорциональности L в этой формуле называется коэффициентом самоиндукции или индуктивностью катушки. Единица индуктивности в СИ называется Генри (Гн)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Запомните:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext133"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="@font/athiti"
+                android:text="индуктивность контура не зависит ни от магнитного потока, ни от силы тока в нем, а определяется только формой и размерами контура, а также свойствами окружающей среды. Поэтому при изменении силы тока в контуре индуктивность остается неизменной. Индуктивность катушки можно рассчитать по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView88"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sam2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1000dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЭДС самоиндукции"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext134"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1030dp"
+                android:fontFamily="@font/athiti"
+                android:text="- возникающая в катушке с постоянным значением индуктивности, согласно формуле Фарадея равна:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView89"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1100dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sam3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1250dp"
+                android:fontFamily="@font/athiti"
+                android:text="Энергия магнитного поля"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext135"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1280dp"
+                android:fontFamily="@font/athiti"
+                android:text="Подобно тому, как в заряженном конденсаторе имеется запас электрической энергии, в катушке, по виткам которой протекает ток, имеется запас магнитной энергии. Энергия Wм магнитного поля катушки с индуктивностью L, создаваемого током I, может быть рассчитана по одной из формул (они следуют друг из друга с учётом формулы Φ = LI):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView90"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1450dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/sam4"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

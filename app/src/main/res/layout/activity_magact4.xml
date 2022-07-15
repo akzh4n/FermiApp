@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact4">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Магнитное взаимодействие токов"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ТЕОРИЯ МАГНИТНОГО ПОЛЯ"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если по двум параллельным проводам идёт ток в одном направлении, то они притягиваются; если в противоположных направлениях, то отталкиваются. Закономерности этого явления были экспериментально установлены Ампером. Взаимодействие токов вызывается их магнитными полями: магнитное поле одного тока действует силой Ампера на другой ток и наоборот. Опыты показали, что модуль силы, действующей на отрезок длиной Δl каждого из проводников, прямо пропорционален силам тока I1 и I2 в проводниках, длине отрезка Δl и обратно пропорционален расстоянию R между ними:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="450dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext119"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: μ0 – постоянная величина, которую называют магнитной постоянной. Введение магнитной постоянной в СИ упрощает запись ряда формул. Ее численное значение равно: μ0 = 4π·10–7 H/A2 ≈ 1,26·10–6 H/A2."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="700dp"
+                android:fontFamily="@font/athiti"
+                android:text="Индукция магнитного поля в проводниках:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView81"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="750dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="850dp"
+                android:fontFamily="@font/athiti"
+                android:text="Индукция магнитного поля в центре витка:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView82"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="900dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1000dp"
+                android:fontFamily="@font/athiti"
+                android:text="Вектор магнитной индукции"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext120"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1030dp"
+                android:fontFamily="@font/athiti"
+                android:text="- векторная физическая величина, являющаяся характеристикой магнитного поля, численно равная силе, действующей на элемент тока в 1 А и длиной 1 м, если направление силовой линии перпендикулярно проводнику. Обозначается В, единица измерения - 1 Тесла. 1 Тл - очень большая величина, поэтому в реальных магнитных полях магнитную индукцию измеряют в мТл."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext121"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1230dp"
+                android:fontFamily="@font/athiti"
+                android:text="Вектор магнитной индукции направлен по касательной к силовым линиям, т.е. совпадает с направлением северного полюса магнитной стрелки, помещённой в данное магнитное поле. Направление вектора магнитной индукции не совпадает с направлением силы, действующей на проводник, поэтому силовые линии магнитного поля, строго говоря, силовыми не являются."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext122"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Силовая линия магнитного поля постоянных магнитов направлена по отношению к самим магнитам так, как показано на рисунке:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView83"
+                android:layout_width="230dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="1550dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Правило правой руки"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext123"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1680dp"
+                android:fontFamily="@font/athiti"
+                android:text="- в случае магнитного поля электрического тока для определения направления силовых линий используют правило «Правой руки»: если взять проводник в правую руку так, чтобы большой палец был направлен по току, то четыре пальца, обхватывающие проводник, показывают направление силовых линий вокруг проводника: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView84"
+                android:layout_width="270dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="1850dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext124"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2000dp"
+                android:fontFamily="@font/athiti"
+                android:text="В случае прямого тока линии магнитной индукции - окружности, плоскости которых перпендикулярны току. Вектора магнитной индукции направлены по касательной к окружности."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Соленоид"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext125"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2130dp"
+                android:fontFamily="@font/athiti"
+                android:text="- намотанный на цилиндрическую поверхность проводник, по которому течёт электрический ток I."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext126"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2200dp"
+                android:fontFamily="@font/athiti"
+                android:text="Магнитное поле соленоида подобно полю прямого постоянного магнита. Внутри соленоида длиной l и количеством витков N создается однородное магнитное поле с индукцией (его направление также определяется правилом правой руки):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView85"
+                android:layout_width="270dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="2350dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Магнитные свойства вещества"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext127"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2530dp"
+                android:fontFamily="@font/athiti"
+                android:text="Все вещества обладают магнитными свойствами. Магнитные свойства вещества характеризуются относительной магнитной проницаемостью μ, для которой верно следующее:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="2650dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/tmag7"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext128"
+                android:layout_width="375dp"
+                android:layout_height="400dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Данная формула выражает соответствие вектора магнитной индукции поля в вакууме и в данной среде. В отличие от электрического, при магнитном взаимодействии в среде можно наблюдать и усиление, и ослабление взаимодействия по сравнению с вакуумом, у которого магнитная проницаемость μ = 1. У диамагнетиков магнитная проницаемость μ немного меньше единицы. Примеры: вода, азот, серебро, медь, золото. Эти вещества несколько ослабляют магнитное поле. Парамагнетики - кислород, платина, магний - несколько усиливают поле, имея μ немного больше единицы. У ферромагнетиков - железо, никель, кобальт - μ >> 1. Например, у железа μ ≈ 25000."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

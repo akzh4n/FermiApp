@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact12">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="МЕХАНИЧЕСКИЕ ВОЛНЫ"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если в каком-нибудь месте твердой, жидкой или газообразной среды возбуждены колебания частиц, то вследствие взаимодействия атомов и молекул среды колебания начинают передаваться от одной точки к другой с конечной скоростью. Процесс распространения колебаний в среде называется волной."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="300dp"
+                android:fontFamily="@font/athiti"
+                android:text="Поперечная волна"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext145"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="330dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если при распространении волны частицы среды испытывают смещение в направлении, перпендикулярном направлению распространения, такая волна называется поперечной."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Продольная волна"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext146"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если смещение частиц среды происходит в направлении распространения волны, такая волна называется продольной."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/athiti"
+                android:text="Длина волны:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext147"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="@font/athiti"
+                android:text="Длиной волны λ называют расстояние между двумя соседними точками, колеблющимися в одинаковых фазах. Расстояние, равное длине волны λ, волна пробегает за время равное периоду T, следовательно, длина волны может быть рассчитана по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView98"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="780dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/volna1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext148"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="900dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: υ – скорость распространения волны. При переходе волны из одной среды в другую длина волны и скорость ее распространения меняются. Неизменными остаются только частота и период волны. Разность фаз колебаний двух точек волны, расстояние между которыми l рассчитывается по формуле: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView99"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="1100dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/volna2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

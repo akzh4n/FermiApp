@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact10">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Математический маятник"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="МАТЕМАТИЧЕСКИЙ МАЯТНИК"
+                android:textColor="@color/black"
+                android:textSize="19dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="- называют тело небольших размеров, подвешенное на тонкой, длинной и нерастяжимой нити, масса которой пренебрежимо мала по сравнению с массой тела. Только в случае малых колебаний математический маятник является гармоническим осциллятором, то есть системой, способной совершать гармонические (по закону sin или cos) колебания. Практически такое приближение справедливо для углов порядка 5–10°. Колебания маятника при больших амплитудах не являются гармоническими."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="450dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mayot1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Циклическая частота маятника:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Циклическая частота маятника:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="580dp"
+                android:fontFamily="@font/athiti"
+                android:text="Период колебаний математического маятника:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView96"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="650dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/mayot2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext143"
+                android:layout_width="375dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Полученная формула называется формулой Гюйгенса и выполняется, когда точка подвеса маятника неподвижна. Важно запомнить, что период малых колебаний математического маятника не зависит от амплитуды колебаний. Такое свойство маятника называется изохронностью."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

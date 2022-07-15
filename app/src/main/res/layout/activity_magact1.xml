@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.magnets.magact1">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Магнитное поле"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="СИЛА АМПЕРА"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Заряженные тела способны создавать кроме электрического еще один вид поля. Если заряды движутся, то в пространстве вокруг них создается особый вид материи, называемый магнитным полем. Следовательно, электрический ток, представляющий собой упорядоченное движение зарядов, тоже создает магнитное поле. Как и электрическое поле, магнитное поле не ограничено в пространстве, распространяется очень быстро, но все же с конечной скоростью. Его можно обнаружить только по действию на движущиеся заряженные тела (и, как следствие, токи)."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сила Ампера"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext113"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/athiti"
+                android:text="Для описания магнитного поля необходимо ввести силовую характеристику поля, аналогичную вектору напряженности E электрического поля. Такой характеристикой является вектор B магнитной индукции. В системе единиц СИ за единицу магнитной индукции принят 1 Тесла (Тл). Если в магнитное поле с индукцией B поместить проводник длиной l с током I, то на него будет действовать сила, называемая силой Ампера, которая вычисляется по формуле:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="730dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/amper1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext114"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="850dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: В – индукция магнитного поля, I – сила тока в проводнике, l – его длина. Сила Ампера направлена перпендикулярно вектору магнитной индукции и направлению тока, текущего по проводнику. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="950dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сила Ампера"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext115"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="980dp"
+                android:fontFamily="@font/athiti"
+                android:text="Для определения направления силы Ампера обычно используют правило «Левой руки»: если расположить левую руку так, чтобы линии индукции входили в ладонь, а вытянутые пальцы были направлены вдоль тока, то отведенный большой палец укажет направление силы Ампера, действующей на проводник."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView78"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1200dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/amper2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

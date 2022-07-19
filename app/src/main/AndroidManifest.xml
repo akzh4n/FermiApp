@@ -14,7 +14,57 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
-
+        <activity
+            android:name=".infomaterials.mkt.mktact17"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact16"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact15"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact14"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact13"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact12"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact11"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact10"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact9"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact8"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact7"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact6"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact5"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact4"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact3"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact2"
+            android:exported="false" />
+        <activity
+            android:name=".infomaterials.mkt.mktact1"
+            android:exported="false" />
         <activity
             android:name=".infomaterials.magnets.magact14"
             android:exported="false" />

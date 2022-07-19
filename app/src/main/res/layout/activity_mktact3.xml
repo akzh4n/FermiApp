@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact3">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Идеальный газ"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИДЕАЛЬНЫЙ ГАЗ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="– это газ, молекулы которого не взаимодействуют друг с другом, за исключением процессов упругого столкновения и считаются материальными точками."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext153"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/athiti"
+                android:text="В молекулярно-кинетической теории количество вещества принято считать пропорциональным числу частиц. Единица количества вещества называется молем (моль). Моль – это количество вещества, содержащее столько же частиц (молекул), сколько содержится атомов в 0,012 кг углерода 12C. Молекула углерода состоит из одного атома. Таким образом, в одном моле любого вещества содержится одно и то же число частиц (молекул). Это число называется постоянной Авогадро: NА = 6,022·1023 моль–1."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="500dp"
+                android:fontFamily="@font/athiti"
+                android:text="Количество вещества (Моль)"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext163"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="530dp"
+                android:fontFamily="@font/athiti"
+                android:text="определяется как отношение числа N частиц (молекул) вещества к постоянной Авогадро NА, или как отношение массы к молярной массе:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="620dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/idealgas1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext164"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="730dp"
+                android:fontFamily="@font/athiti"
+                android:text="Массу одного моля вещества принято называть молярной массой M. Молярная масса равна произведению массы m0 одной молекулы данного вещества на постоянную Авогадро (то есть на количество частиц в одном моле). Молярная масса выражается в килограммах на моль (кг/моль). Для веществ, молекулы которых состоят из одного атома, часто используется термин атомная масса. В таблице Менделеева молярная масса указана в граммах на моль. Таким образом имеем еще одну формулу:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1000dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/idealga2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext165"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1130dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: M – молярная масса, NA – число Авогадро, m0 – масса одной частицы вещества, N – число частиц вещества содержащихся в массе вещества m. Кроме этого понадобится понятие концентрации (количество частиц в единице объема):"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

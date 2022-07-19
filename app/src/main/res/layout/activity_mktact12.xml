@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact12">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Термодинамика"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="РАБОТА ИДЕАЛЬНОГО ГАЗА"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="– это наука о тепловых явлениях. В противоположность молекулярно–кинетической теории, которая делает выводы на основе представлений о молекулярном строении вещества, термодинамика исходит из наиболее общих закономерностей тепловых процессов и свойств макроскопических систем. Выводы термодинамики опираются на совокупность опытных фактов и не зависят от наших знаний о внутреннем устройстве вещества, хотя в целом ряде случаев термодинамика использует молекулярно–кинетические модели для иллюстрации своих выводов."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext179"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Термодинамика рассматривает изолированные системы тел, находящиеся в состоянии термодинамического равновесия. Это означает, что в таких системах прекратились все наблюдаемые макроскопические процессы. Важным свойством термодинамически равновесной системы является выравнивание температуры всех ее частей."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext180"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="@font/athiti"
+                android:text="В изобарном процессе работу идеального газа можно рассчитывать по формулам:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="700dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/rabgaz1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext181"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="850dp"
+                android:fontFamily="@font/athiti"
+                android:text="Подчеркнем еще раз: работу газа по расширению можно считать по этим формулам только если давление постоянно. Согласно данной формуле, при расширении газ совершает положительную работу, а при сжатии – отрицательную (т.е. газ сопротивляется сжатию и над ним нужно совершать работу чтобы оно состоялось). Если давление нельзя считать постоянным, то работу газа находят, как площадь фигуры под графиком в координатах (p, V). Очевидно, что в изохорном процессе работа газа равна нулю."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="1100dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/rabgaz2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

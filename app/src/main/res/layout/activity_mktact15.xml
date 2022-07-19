@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact15">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Тепловой двигатель"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ЦИКЛЫ И ТЕПЛОВЫЕ МАШИНЫ"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="называется устройство, способное превращать полученное количество теплоты в механическую работу. Механическая работа в тепловых двигателях производится в процессе расширения некоторого вещества, которое называется рабочим телом. В качестве рабочего тела обычно используются газообразные вещества (пары бензина, воздух, водяной пар). Рабочее тело получает (или отдает) тепловую энергию в процессе теплообмена с телами, имеющими большой запас внутренней энергии. Эти тела называются тепловыми резервуарами."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext177"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="400dp"
+                android:fontFamily="@font/athiti"
+                android:text="Реально существующие тепловые двигатели (паровые машины, двигатели внутреннего сгорания и т.д.) работают циклически. Процесс теплопередачи и преобразования полученного количества теплоты в работу периодически повторяется. Для этого рабочее тело должно совершать круговой процесс или термодинамический цикл, при котором периодически восстанавливается исходное состояние."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/syundertext183"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/athiti"
+                android:text="Общее свойство всех круговых процессов состоит в том, что их невозможно провести, приводя рабочее тело в тепловой контакт только с одним тепловым резервуаром. Их нужно, по крайней мере, два. Тепловой резервуар с более высокой температурой называют нагревателем, а с более низкой – холодильником. Совершая круговой процесс, рабочее тело получает от нагревателя некоторое количество теплоты и отдает холодильнику количество теплоты."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="840dp"
+                android:fontFamily="@font/athiti"
+                android:text="КПД тепловой машины:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="890dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kpd1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext184"
+                android:layout_width="375dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1015dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: Q1 – количество теплоты полученное рабочим телом за один цикл от нагревателя, Q2 – количество теплоты переданное рабочим телом за один цикл холодильнику. Работа совершенная тепловой машиной за один цикл:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="1140dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kpd2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1265dp"
+                android:fontFamily="@font/athiti"
+                android:text="КПД цикла Карно:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1315dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/kpd3"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact13">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Внутреняя энергия:"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ВНУТРЕНЯЯ ЭНЕРГИЯ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Одним из важнейших понятий термодинамики является внутренняя энергия тела. Все макроскопические тела обладают энергией, заключенной внутри самих тел. С точки зрения молекулярно–кинетической теории внутренняя энергия вещества складывается из кинетической энергии всех атомов и молекул и потенциальной энергии их взаимодействия друг с другом. В частности, внутренняя энергия идеального газа равна сумме кинетических энергий всех частиц газа, находящихся в непрерывном и беспорядочном тепловом движении. Внутренняя энергия идеального газа зависит только от его температуры и не зависит от объема. Внутренняя энергия одноатомного идеального газа рассчитывается по формулам:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="500dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/veng1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext182"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="620dp"
+                android:fontFamily="@font/athiti"
+                android:text="Таким образом, внутренняя энергия U тела однозначно определяется макроскопическими параметрами, характеризующими состояние тела. Она не зависит от того, каким путем было реализовано данное состояние. Принято говорить, что внутренняя энергия является функцией состояния. Это значит, что изменение внутренней энергии не зависит от того, как система была переведена из одного состояния в другое (а зависит лишь от характеристик первоначального и конечного состояний) и всегда, в любых процессах для одноатомного идеального газа определяется выражением:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="900dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/veng2"
+                android:textAlignment="center" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

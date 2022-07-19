@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact7">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изобарный процесс (p = const)  "
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изобарным процессом называют процесс, протекающий при неизменным давлении и массе газа. Как следует из уравнения состояния идеального газа, в этом случае объем изменяется прямо пропорционально температуре. Графики изобарического процесса в координатах р–V; V–Т и р–Т имеют следующий вид:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="320dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izobar"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="450dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изохорный процесс (V = const)"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext175"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="480dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изохорный процесс – это процесс нагревания или охлаждения газа при постоянном объеме и при условии, что количество вещества в сосуде остается неизменным. Как следует из уравнения состояния идеального газа, при этих условиях давление газа изменяется прямо пропорционально его абсолютной температуре. Графики изохорного процесса в координатах р–V; р–Т и V–Т имеют следующий вид:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="680dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izoxor"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изотермический процесс (T = const)"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="380dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="1030dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izoterm"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext176"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="830dp"
+                android:fontFamily="@font/athiti"
+                android:text="Изотермическим процессом называют процесс, протекающий при постоянной температуре. Из уравнения состояния идеального газа следует, что при постоянной температуре и неизменном количестве вещества в сосуде произведение давления газа на его объем должно оставаться постоянным. Графики изотермического процесса в координатах р–V; р–Т и V–Т имеют следующий вид:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

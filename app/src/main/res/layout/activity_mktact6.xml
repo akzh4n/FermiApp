@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact6">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="110dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Авогадро"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="ИЗОПРОЦЕССЫ"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="140dp"
+                android:fontFamily="@font/athiti"
+                android:text="В одном моле любого вещества содержится одинаковое количество структурных элементов, равное числу Авогадро."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="230dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Дальтона"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext168"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="260dp"
+                android:fontFamily="@font/athiti"
+                android:text="Давление смеси газов равно сумме парциальных давлений газов, входящих в эту смесь:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView110"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="330dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izo"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="430dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Бойля-Мариотта"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext169"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="460dp"
+                android:fontFamily="@font/athiti"
+                android:text="Если масса и температура газа остаются постоянными, то произведение давления газа на его объем не изменяется, следовательно:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView116"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="530dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izo1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext170"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Процесс, происходящий при постоянной температуре, называют изотермическим. Обратите внимание, что такая простая форма закона Бойля-Мариотта выполняется только при условии, что масса газа остается неизменной."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Гей-Люссака"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext171"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="830dp"
+                android:fontFamily="@font/athiti"
+                android:text="Сам закон Гей-Люссака не представляет особой ценности при подготовке к экзаменам, поэтому приведем лишь следствие из него. Если масса и давление газа остаются постоянными, то отношение объема газа к его абсолютной температуре не изменяется, следовательно:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1000dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izo2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext172"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1150dp"
+                android:fontFamily="@font/athiti"
+                android:text="Процесс, происходящий при постоянном давлении, называют изобарическим или изобарным. Обратите внимание, что такая простая форма закона Гей-Люссака выполняется только при условии, что масса газа остается неизменной. Не забывайте про перевод температуры из градусов Цельсия в кельвины."
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1350dp"
+                android:fontFamily="@font/athiti"
+                android:text="Закон Шарля"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/syundertext173"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1380dp"
+                android:fontFamily="@font/athiti"
+                android:text="Как и закон Гей-Люссака, закон Шарля в точной формулировке для нас не важен, поэтому приведем лишь следствие из него. Если масса и объем газа остаются постоянными, то отношение давления газа к его абсолютной температуре не изменяется, следовательно:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="340dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="1520dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/izo3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext174"
+                android:layout_width="375dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1650dp"
+                android:fontFamily="@font/athiti"
+                android:text="Как и закон Гей-Люссака, закон Шарля в точной формулировке для нас не важен, поэтому приведем лишь следствие из него. Если масса и объем газа остаются постоянными, то отношение давления газа к его абсолютной температуре не изменяется, следовательно:"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

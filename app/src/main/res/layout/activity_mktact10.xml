@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/back"
+tools:context=".infomaterials.mkt.mktact10">
+
+
+<ScrollView
+    android:id="@+id/scrolling"
+    android:layout_width="380dp"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/view2"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="40dp">
+
+
+        <TextView
+            android:id="@+id/sytext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/athiti"
+            android:text="УДЕЛЬНАЯ ТЕПЛОТА ПАРА"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/syundertext46"
+            android:layout_width="375dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/athiti"
+            android:text="Количество теплоты, поступающее в систему или выделяющееся из нее, изменяет ее внутреннюю энергию. Это означает, что внутренняя энергия пара при 100°С больше, чем жидкости при той же температуре. Указанные фазовые переходы идут при постоянных температурах, которые называются соответственно температурой кипения и температурой плавления. Количество теплоты, необходимое для превращения жидкости в пар или выделяемое паром при конденсации, называется теплотой парообразования:"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/imageView115"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="380dp"
+            android:baselineAlignBottom="false"
+            android:src="@drawable/parov"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/syundertext178"
+            android:layout_width="375dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="500dp"
+            android:fontFamily="@font/athiti"
+            android:text="где: r – удельная теплота парообразования. Единица измерения [r] = 1 Дж/кг. Физический смысл удельной теплоты парообразования: она равна количеству теплоты, необходимому для превращения в пар 1 кг жидкости, находящейся при температуре кипения. Превращение жидкости в пар не требует доведение жидкости до кипения. Вода может превратиться в пар и при комнатной температуре. Такой процесс называется испарением."
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</ScrollView>
+
+</FrameLayout>

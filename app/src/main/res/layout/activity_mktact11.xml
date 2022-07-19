@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".infomaterials.mkt.mktact11">
+
+
+    <ScrollView
+        android:id="@+id/scrolling"
+        android:layout_width="380dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="40dp">
+
+
+            <TextView
+                android:id="@+id/sytext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/athiti"
+                android:text="УДЕЛЬНАЯ ТЕПЛОТА ПЛАВЛЕНИЯ"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/syundertext46"
+                android:layout_width="375dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/athiti"
+                android:text="Количество теплоты, необходимое для плавления тела или выделяемое при кристаллизации (отвердевании), называется теплотой плавления: "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="210dp"
+                android:baselineAlignBottom="false"
+                android:src="@drawable/plavl"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/syundertext177"
+                android:layout_width="375dp"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="325dp"
+                android:fontFamily="@font/athiti"
+                android:text="где: λ – удельная теплота плавления. Единица измерения [λ] = 1 Дж/кг. Физический смысл удельной теплоты плавления: теплота, необходимая для плавления 1 кг вещества, находящегося при температуре плавления. Удельные теплоты парообразования и плавления называются также скрытыми теплотами, поскольку при фазовых переходах температура системы не меняется, несмотря на то, что теплота к ней подводится. "
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+</FrameLayout>

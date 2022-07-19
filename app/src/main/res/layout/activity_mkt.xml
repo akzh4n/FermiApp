@@ -427,54 +427,6 @@
             </androidx.cardview.widget.CardView>
 
 
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/mktcard18"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_below="@+id/card18">
-
-                <TextView
-                    android:id="@+id/textoftopic19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="23dp"
-                    android:drawableLeft="@drawable/ic_flag"
-                    android:drawablePadding="20dp"
-                    android:fontFamily="@font/athiti"
-                    android:paddingLeft="10dp"
-                    android:text="Относительная влажность"
-                    android:textColor="@color/black"
-                    android:textSize="23dp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-
-
-            <androidx.cardview.widget.CardView
-                android:id="@+id/mktcard19"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_below="@+id/card19">
-
-                <TextView
-                    android:id="@+id/textoftopic20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_marginTop="23dp"
-                    android:drawableLeft="@drawable/ic_flag"
-                    android:drawablePadding="20dp"
-                    android:fontFamily="@font/athiti"
-                    android:paddingLeft="10dp"
-                    android:text="Поверхностное натяжение"
-                    android:textColor="@color/black"
-                    android:textSize="23dp"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-
-
         </LinearLayout>
     </ScrollView>
 

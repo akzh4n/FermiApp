@@ -15,6 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
         <activity
+            android:name=".quizespractice.QuizMagnActivity"
+            android:exported="false" />
+        <activity
             android:name=".infomaterials.mkt.mktact17"
             android:exported="false" />
         <activity
@@ -280,6 +283,12 @@
             android:exported="false" />
         <activity
             android:name=".quizespractice.QuizMechActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quizespractice.QuizMKTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quizespractice.QuizElectroActivity"
             android:exported="false" />
         <activity
             android:name=".infomaterials.kinematics.kinemact2"

@@ -11,10 +11,11 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.newfermiapp.PracticeActivity;
+import com.example.newfermiapp.QuestionAnswerElectro;
 import com.example.newfermiapp.QuestionAnswerMech;
 import com.example.newfermiapp.R;
 
-public class QuizMechActivity extends AppCompatActivity implements View.OnClickListener{
+public class QuizElectroActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView totalQuestionsTextView;
     private TextView questionTextView;
@@ -23,14 +24,14 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
 
 
     int score = 0;
-    int totalQuestion = QuestionAnswerMech.question.length;
+    int totalQuestion = QuestionAnswerElectro.question.length;
     int currentQuestionIndex = 0;
     String selectedAnswer = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_mech);
+        setContentView(R.layout.activity_quiz_electro);
 
         totalQuestionsTextView = findViewById(R.id.total_questions);
         questionTextView = findViewById(R.id.question);
@@ -84,11 +85,11 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
             return;
         }
 
-        questionTextView.setText(QuestionAnswerMech.question[currentQuestionIndex]);
-        ansA.setText(QuestionAnswerMech.choices[currentQuestionIndex][0]);
-        ansB.setText(QuestionAnswerMech.choices[currentQuestionIndex][1]);
-        ansC.setText(QuestionAnswerMech.choices[currentQuestionIndex][2]);
-        ansD.setText(QuestionAnswerMech.choices[currentQuestionIndex][3]);
+        questionTextView.setText(QuestionAnswerElectro.question[currentQuestionIndex]);
+        ansA.setText(QuestionAnswerElectro.choices[currentQuestionIndex][0]);
+        ansB.setText(QuestionAnswerElectro.choices[currentQuestionIndex][1]);
+        ansC.setText(QuestionAnswerElectro.choices[currentQuestionIndex][2]);
+        ansD.setText(QuestionAnswerElectro.choices[currentQuestionIndex][3]);
     }
 
 

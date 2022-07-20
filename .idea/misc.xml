@@ -144,7 +144,7 @@
         <entry key="app/src/main/res/layout/activity_optact4.xml" value="0.2212285359700521" />
         <entry key="app/src/main/res/layout/activity_optact5.xml" value="0.3140380859375" />
         <entry key="app/src/main/res/layout/activity_optica.xml" value="0.2610087393852861" />
-        <entry key="app/src/main/res/layout/activity_practice.xml" value="0.22397592803578323" />
+        <entry key="app/src/main/res/layout/activity_practice.xml" value="0.26591644287109373" />
         <entry key="app/src/main/res/layout/activity_quantact1.xml" value="0.3319569905598958" />
         <entry key="app/src/main/res/layout/activity_quantact2.xml" value="0.27147569984952263" />
         <entry key="app/src/main/res/layout/activity_quantact3.xml" value="0.3816549069916613" />
@@ -153,7 +153,10 @@
         <entry key="app/src/main/res/layout/activity_quantact6.xml" value="0.38371734619140624" />
         <entry key="app/src/main/res/layout/activity_quantact7.xml" value="0.35546875" />
         <entry key="app/src/main/res/layout/activity_quantum.xml" value="0.4708740234375" />
+        <entry key="app/src/main/res/layout/activity_quiz_electro.xml" value="0.25427350427350426" />
+        <entry key="app/src/main/res/layout/activity_quiz_magn.xml" value="0.25427350427350426" />
         <entry key="app/src/main/res/layout/activity_quiz_mech.xml" value="0.258111572265625" />
+        <entry key="app/src/main/res/layout/activity_quiz_mkt.xml" value="0.25427350427350426" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18100280761718754" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.21452178955078127" />
         <entry key="app/src/main/res/layout/activity_statact1.xml" value="0.27707112630208336" />

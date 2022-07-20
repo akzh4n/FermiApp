@@ -11,10 +11,10 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.newfermiapp.PracticeActivity;
-import com.example.newfermiapp.QuestionAnswerMech;
+import com.example.newfermiapp.QuestionAnswerMKT;
 import com.example.newfermiapp.R;
 
-public class QuizMechActivity extends AppCompatActivity implements View.OnClickListener{
+public class QuizMKTActivity extends AppCompatActivity implements View.OnClickListener{
 
     private TextView totalQuestionsTextView;
     private TextView questionTextView;
@@ -23,14 +23,14 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
 
 
     int score = 0;
-    int totalQuestion = QuestionAnswerMech.question.length;
+    int totalQuestion = QuestionAnswerMKT.question.length;
     int currentQuestionIndex = 0;
     String selectedAnswer = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quiz_mech);
+        setContentView(R.layout.activity_quiz_mkt);
 
         totalQuestionsTextView = findViewById(R.id.total_questions);
         questionTextView = findViewById(R.id.question);
@@ -65,7 +65,7 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
-            if(selectedAnswer.equals(QuestionAnswerMech.correctAnswers[currentQuestionIndex])) {
+            if(selectedAnswer.equals(QuestionAnswerMKT.correctAnswers[currentQuestionIndex])) {
                 score++;
             }
             currentQuestionIndex++;
@@ -84,11 +84,11 @@ public class QuizMechActivity extends AppCompatActivity implements View.OnClickL
             return;
         }
 
-        questionTextView.setText(QuestionAnswerMech.question[currentQuestionIndex]);
-        ansA.setText(QuestionAnswerMech.choices[currentQuestionIndex][0]);
-        ansB.setText(QuestionAnswerMech.choices[currentQuestionIndex][1]);
-        ansC.setText(QuestionAnswerMech.choices[currentQuestionIndex][2]);
-        ansD.setText(QuestionAnswerMech.choices[currentQuestionIndex][3]);
+        questionTextView.setText(QuestionAnswerMKT.question[currentQuestionIndex]);
+        ansA.setText(QuestionAnswerMKT.choices[currentQuestionIndex][0]);
+        ansB.setText(QuestionAnswerMKT.choices[currentQuestionIndex][1]);
+        ansC.setText(QuestionAnswerMKT.choices[currentQuestionIndex][2]);
+        ansD.setText(QuestionAnswerMKT.choices[currentQuestionIndex][3]);
     }
 
 

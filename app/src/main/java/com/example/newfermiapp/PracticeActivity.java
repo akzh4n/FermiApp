@@ -9,6 +9,9 @@ import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.newfermiapp.quizespractice.QuizElectroActivity;
+import com.example.newfermiapp.quizespractice.QuizMKTActivity;
+import com.example.newfermiapp.quizespractice.QuizMagnActivity;
 import com.example.newfermiapp.quizespractice.QuizMechActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -82,7 +85,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
 
         switch(v.getId()) {
             case R.id.btnMKT1:
-                Intent intent = new Intent(this, PracticeActivity.class);
+                Intent intent = new Intent(this, QuizMKTActivity.class);
                 startActivity(intent);
                 break;
             default:
@@ -91,7 +94,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
 
         switch(v.getId()) {
             case R.id.btnElectrodyn1:
-                Intent intent = new Intent(this, PracticeActivity.class);
+                Intent intent = new Intent(this, QuizElectroActivity.class);
                 startActivity(intent);
                 break;
             default:
@@ -100,7 +103,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
 
         switch(v.getId()) {
             case R.id.btnMagn1:
-                Intent intent = new Intent(this, PracticeActivity.class);
+                Intent intent = new Intent(this, QuizMagnActivity.class);
                 startActivity(intent);
                 break;
             default:

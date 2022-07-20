@@ -1,6 +1,6 @@
 package com.example.newfermiapp;
 
-public class QuestionAnswer {
+public class QuestionAnswerMech {
     public static String question[] = {
             "Единица массы, принятая за основную в СИ - это ...",
             "Единица времени, принятая за основную в СИ - это ...",

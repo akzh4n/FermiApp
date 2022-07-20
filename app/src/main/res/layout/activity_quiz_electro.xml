@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="24dp"
+    tools:context=".quizespractice.QuizElectroActivity">
+
+
+    <TextView
+        android:id="@+id/total_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/athiti"
+        android:text="TOTAL QUESTIONS"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif"
+        android:text="This will be the question"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/choices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/and_A"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="Ans A"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/and_B"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="Ans B"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/and_C"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="Ans C"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/and_D"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="Ans D"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/choices_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/athiti"
+        android:text="Ответить"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -4,7 +4,7 @@
   
   At the beginning it consists of only two basic subject such as Physics
   
-  BY: Kalimatov Akzhan
+  BY: KALIMATOV AKZHAN
   
   
   
@@ -86,6 +86,7 @@ One of the most important parts of the lesson is the testing, here tasks and que
 
 
 
-Thanks for attention <3
-Support me and follow for new updates!
+Thanks for attention 💙
+
+Support me and follow for new updates! 👌
 

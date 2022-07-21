@@ -12,7 +12,7 @@
 
 # Login and Register Pages
 
-<img src=“https://github.com/manste1n/FermiApp/assets/1.png”>
+![Header](https://github.com/manste1n/FermiApp/assets/1.png)]
 
 
 

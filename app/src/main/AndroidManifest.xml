@@ -339,9 +339,6 @@
             android:name=".PracticeActivity"
             android:exported="false" />
         <activity
-            android:name=".TablesActivity"
-            android:exported="false" />
-        <activity
             android:name=".TopicsActivity"
             android:exported="false" />
         <activity

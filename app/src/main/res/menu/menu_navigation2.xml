@@ -14,10 +14,6 @@
         android:icon="@drawable/ic_test"
         app:showAsAction="always"/>
 
-    <item
-        android:id="@+id/tables"
-        android:title="Таблицы"
-        android:icon="@drawable/ic_tables"
-        app:showAsAction="always"/>
+
 
 </menu>

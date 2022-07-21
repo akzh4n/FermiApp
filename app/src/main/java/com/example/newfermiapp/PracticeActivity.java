@@ -45,10 +45,6 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
                         overridePendingTransition(0, 0);
                         return true;
 
-                    case R.id.tables:
-                        startActivity(new Intent(getApplicationContext(), TablesActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
                 }
                 return  false;
             }

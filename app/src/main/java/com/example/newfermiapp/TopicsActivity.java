@@ -45,10 +45,6 @@ public class TopicsActivity extends AppCompatActivity implements View.OnClickLis
                     case R.id.topics:
                         return true;
 
-                    case R.id.tables:
-                        startActivity(new Intent(getApplicationContext(), TablesActivity.class));
-                        overridePendingTransition(0, 0);
-                        return true;
                 }
                 return  false;
             }

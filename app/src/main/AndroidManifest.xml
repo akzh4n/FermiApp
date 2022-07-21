@@ -15,6 +15,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NewFermiApp">
         <activity
+            android:name=".quizespractice.QuizQuantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".quizespractice.QuizOptActivity"
+            android:exported="false" />
+        <activity
             android:name=".quizespractice.QuizMagnActivity"
             android:exported="false" />
         <activity

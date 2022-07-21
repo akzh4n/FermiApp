@@ -13,6 +13,8 @@ import com.example.newfermiapp.quizespractice.QuizElectroActivity;
 import com.example.newfermiapp.quizespractice.QuizMKTActivity;
 import com.example.newfermiapp.quizespractice.QuizMagnActivity;
 import com.example.newfermiapp.quizespractice.QuizMechActivity;
+import com.example.newfermiapp.quizespractice.QuizOptActivity;
+import com.example.newfermiapp.quizespractice.QuizQuantActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class PracticeActivity extends AppCompatActivity implements View.OnClickListener {
@@ -112,7 +114,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
 
         switch(v.getId()) {
             case R.id.btnOptica1:
-                Intent intent = new Intent(this, PracticeActivity.class);
+                Intent intent = new Intent(this, QuizOptActivity.class);
                 startActivity(intent);
                 break;
             default:
@@ -120,7 +122,7 @@ public class PracticeActivity extends AppCompatActivity implements View.OnClickL
         }
         switch(v.getId()) {
             case R.id.btnQuantum1:
-                Intent intent = new Intent(this, PracticeActivity.class);
+                Intent intent = new Intent(this, QuizQuantActivity.class);
                 startActivity(intent);
                 break;
             default:

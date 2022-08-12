@@ -10,7 +10,7 @@
   
   
 
-# Splash Screen and Main Page
+## Splash Screen and Main Page
 
 <p align="center">
   <img src="https://github.com/manste1n/FermiApp/blob/master/assets/1.png" width="200" title="Splash Screen">
@@ -18,7 +18,7 @@
 </p>
 
 
-# Login and Register Pages
+## Login and Register Pages
 
 
 
@@ -31,7 +31,7 @@ It shows the login and registration pages, if the user is already registered he 
 
 
 
-# About Us, Home, User Profile Pages
+## About Us, Home, User Profile Pages
 <p align="center">
   <img src="https://github.com/manste1n/FermiApp/blob/master/assets/7.png" width="200" title="Abous Us">
   <img src="https://github.com/manste1n/FermiApp/blob/master/assets/5.png" width="200" title="Home">
@@ -53,7 +53,7 @@ This page contains general and accessible information about the user, such as th
 
 
 
-# Topics and Practice Pages
+## Topics and Practice Pages
 
 <p align="center">
   <img src="https://github.com/manste1n/FermiApp/blob/master/assets/8.png" width="200" title="Topics">
